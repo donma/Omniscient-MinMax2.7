@@ -1,4 +1,4 @@
-# 24 套精品網站樣板 — 展示站
+# 全職設計視角 — 24套精品網站樣板展示站
 
 > **Made with MinMax 2.7** — 本專案由 AI 助手 MinMax 2.7 驅動設計與程式碼生成。
 
@@ -77,7 +77,7 @@
 ## 目錄結構
 
 ```
-OmniscientMoresinnaGpt54/
+全職設計視角/
 ├── index.html              ← 主展示站（24 個產業篩選）
 ├── template-detail.html    ← 模板詳情頁
 ├── README.md               ← 本檔案
