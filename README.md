@@ -2,6 +2,10 @@
 
 > **Made with MinMax 2.7** — 本專案由 AI 助手 MinMax 2.7 驅動設計與程式碼生成。
 
+>
+>[示範網站](https://donma.github.io/Omniscient-MinMax2.7/)
+> 
+
 24 套完全差異化的網站模板，每套 12 頁，涵蓋 24 個不同產業。繁體中文，高對比選單，無框架依賴。
 
 ---
