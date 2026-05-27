@@ -1,0 +1,29 @@
+{
+    "id": "template-016",
+    "name": "Apex Finance",
+    "category": "金融保險",
+    "tags": ["金融", "保險", "數據儀表板", "深海軍藍", "雙面板"],
+    "colorScheme": {
+        "bg": "#0B1D3A",
+        "gold": "#D4A843",
+        "white": "#F0F4FA"
+    },
+    "fonts": {
+        "heading": "Playfair Display",
+        "body": "Inter"
+    },
+    "layout": {
+        "type": "portal-sidebar",
+        "sidebarWidth": "260px",
+        "fixedSidebar": true
+    },
+    "features": [
+        "雙面板佈局",
+        "固定左側導航",
+        "統計數據卡片",
+        "金色強調線設計",
+        "金融產品展示",
+        "試算機工具",
+        "文章管理系統"
+    ]
+}

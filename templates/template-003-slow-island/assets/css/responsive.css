@@ -1,0 +1,26 @@
+@media(max-width:1024px){
+  .dest-grid{grid-template-columns:repeat(2,1fr)}
+  .exp-grid{grid-template-columns:1fr}
+  .testimonials-grid,.packages-grid,.blog-grid{grid-template-columns:repeat(2,1fr)}
+  .contact-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:768px){
+  .container{padding:0 20px}
+  .header-inner{padding:0 20px}
+  .main-nav,.header-cta{display:none !important}
+  .hamburger{display:flex !important}
+  .section{padding:60px 0}
+  .dest-grid,.testimonials-grid,.packages-grid,.blog-grid,.team-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-bottom{flex-direction:column;gap:12px;text-align:center}
+  .exp-features{grid-template-columns:1fr}
+  .journey-band{height:280px}
+  .form-row{grid-template-columns:1fr}
+  .contact-form{padding:24px}
+}
+@media(max-width:480px){
+  .hero-title{font-size:1.9rem}
+  .hero-actions{flex-direction:column;align-items:center}
+  .section-title{font-size:1.5rem}
+}

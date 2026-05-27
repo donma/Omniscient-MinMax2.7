@@ -1,0 +1,101 @@
+{
+  "id": "template-024",
+  "name": "Heartbeat NGO",
+  "nameChinese": "心跳基金會",
+  "category": "非營利組織",
+  "description": "暖色調非營利組織網站，以故事牆形式呈現社會影響力，強調情感連結與志願服務號召。",
+  "pages": [
+    {
+      "id": "index",
+      "file": "index.html",
+      "title": "首頁",
+      "description": "大型Hero、影響力數據、故事牆、服務項目、新聞、志工報名"
+    },
+    {
+      "id": "about",
+      "file": "about.html",
+      "title": "關於我們",
+      "description": "組織簡介、發展歷程、核心理念、里程碑成果"
+    },
+    {
+      "id": "mission",
+      "file": "mission.html",
+      "title": "使命與願景",
+      "description": "使命宣言、願景描述、核心價值、策略目標"
+    },
+    {
+      "id": "programs",
+      "file": "programs.html",
+      "title": "服務項目",
+      "description": "六大公益計畫總覽，包含教育、家庭、健康等支援項目"
+    },
+    {
+      "id": "program-detail",
+      "file": "program-detail.html",
+      "title": "計畫詳細頁",
+      "description": "單一計畫的詳細介紹、目標策略、過往成果"
+    },
+    {
+      "id": "impact",
+      "file": "impact.html",
+      "title": "影響力成果",
+      "description": "大型數據統計、年度報告、個案故事、合作夥伴"
+    },
+    {
+      "id": "team",
+      "file": "team.html",
+      "title": "團隊介紹",
+      "description": "執行團隊、董事會、專業顧問成員介紹"
+    },
+    {
+      "id": "news",
+      "file": "news.html",
+      "title": "最新消息",
+      "description": "新聞列表、分類篩選、分頁導航"
+    },
+    {
+      "id": "news-detail",
+      "file": "news-detail.html",
+      "title": "消息詳情",
+      "description": "新聞文章內容、相關文章推薦"
+    },
+    {
+      "id": "donate",
+      "file": "donate.html",
+      "title": "捐贈善款",
+      "description": "捐贈方案選擇、線上捐贈表單、離線捐贈資訊、抵稅說明"
+    },
+    {
+      "id": "volunteer",
+      "file": "volunteer.html",
+      "title": "志工招募",
+      "description": "志工故事、服務項目說明、報名表單、常見問題"
+    },
+    {
+      "id": "contact",
+      "file": "contact.html",
+      "title": "聯絡我們",
+      "description": "聯絡資訊、聯絡表單、地圖"
+    }
+  ],
+  "assets": {
+    "css": [
+      "assets/css/style.css"
+    ],
+    "js": [
+      "assets/js/main.js"
+    ],
+    "images": []
+  },
+  "externalResources": {
+    "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css",
+    "googleFonts": {
+      "Merriweather": "https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900",
+      "Open Sans": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700"
+    }
+  },
+  "seo": {
+    "description": "心跳基金會 - 用愛守護每一個生命。提供教育支援、家庭扶助、健康關懷等公益服務，歡迎捐贈善款或加入志工行列。",
+    "keywords": "非營利,公益,基金會,捐贈,志工,教育支援,家庭扶助,社會關懷"
+  }
+}

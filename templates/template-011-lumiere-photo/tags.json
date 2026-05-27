@@ -1,0 +1,18 @@
+{
+  "id": "template-011",
+  "name": "LUMIÈRE Photo",
+  "category": "婚禮攝影",
+  "tags": ["婚禮攝影", "婚紗", "Full-screen Gallery", "Masonry Grid", "奶油白", "啞光金", "Cormorant字體", "婚禮美學"],
+  "colorScheme": {
+    "bg": "#FAF8F5",
+    "bgAlt": "#F5F0E8",
+    "gold": "#C9A84C",
+    "text": "#2A2A2A",
+    "textLight": "#6B6560",
+    "white": "#FFFFFF"
+  },
+  "fonts": {
+    "heading": "Cormorant Garamond",
+    "body": "Jost"
+  }
+}

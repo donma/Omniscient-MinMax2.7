@@ -1,0 +1,26 @@
+{
+  "id": "template-018",
+  "name": "Spark Academy",
+  "category": "教育培訓",
+  "tags": ["教育", "培訓", "卡片方格", "亮黃", "進度追蹤", "線上學習", "課程"],
+  "colorScheme": {
+    "bg": "#FFFFFF",
+    "bgAlt": "#F7F9FC",
+    "bgWarm": "#FFF8E7",
+    "blue": "#1E3A5F",
+    "blueLight": "#2B5A8A",
+    "yellow": "#F7C948",
+    "yellowDark": "#E5B000",
+    "text": "#1A1A2E",
+    "textLight": "#6B7280",
+    "border": "#E5E7EB"
+  },
+  "fonts": {
+    "heading": "Poppins",
+    "body": "Inter"
+  },
+  "layout": {
+    "type": "卡片方格",
+    "features": ["進度追蹤系統", "RWD響應式設計", "一頁式與多頁式"]
+  }
+}

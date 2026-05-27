@@ -1,0 +1,93 @@
+{
+    "id": "template-016",
+    "name": "Apex Finance 峰會金融",
+    "description": "專業金融與保險服務網站模板，採用雙面板 Portal 設計與數據儀表板風格。適合銀行、保險、資產管理等金融機構使用。",
+    "category": "金融保險",
+    "version": "1.0.0",
+    "pages": [
+        {
+            "file": "index.html",
+            "title": "首頁 - 個人儀表板",
+            "description": "登入後的儀表板頁面，展示資產總覽、統計數據、熱門產品與最新資訊"
+        },
+        {
+            "file": "about.html",
+            "title": "關於我們",
+            "description": "公司介紹、發展歷程、核心價值與里程碑"
+        },
+        {
+            "file": "services.html",
+            "title": "服務項目",
+            "description": "財富管理、保險規劃、房貸服務、企業金融等服務項目展示"
+        },
+        {
+            "file": "products.html",
+            "title": "金融產品",
+            "description": "存款、投資基金、保險產品列表與篩選功能"
+        },
+        {
+            "file": "product-detail.html",
+            "title": "產品詳情 - 優利活存帳戶",
+            "description": "單一產品的詳細資訊、特色說明與利率比較"
+        },
+        {
+            "file": "calculator.html",
+            "title": "理財計算機",
+            "description": "存款利息試算、房貸月付額計算工具"
+        },
+        {
+            "file": "insights.html",
+            "title": "市場洞察",
+            "description": "投資策略、保障規劃、稅務法務等文章列表"
+        },
+        {
+            "file": "insight-detail.html",
+            "title": "文章詳情",
+            "description": "市場洞察文章的完整內容閱讀頁面"
+        },
+        {
+            "file": "team.html",
+            "title": "專業團隊",
+            "description": "經營團隊與理財顧問介紹"
+        },
+        {
+            "file": "contact.html",
+            "title": "聯絡我們",
+            "description": "聯絡表單、服務據點與聯絡資訊"
+        },
+        {
+            "file": "faq.html",
+            "title": "常見問題",
+            "description": "FAQ 常見問題解答（帳戶服務、投資理財分類）"
+        },
+        {
+            "file": "careers.html",
+            "title": "人才招募",
+            "description": "人才福利、職缺列表與履歷投遞"
+        }
+    ],
+    "assets": {
+        "css": [
+            {
+                "file": "assets/css/style.css",
+                "description": "主樣式表，450+ 行，包含所有組件樣式"
+            }
+        ],
+        "js": [
+            {
+                "file": "assets/js/main.js",
+                "description": "交互腳本（包含在 HTML 中）"
+            }
+        ]
+    },
+    "colorScheme": {
+        "primary": "#0B1D3A",
+        "secondary": "#D4A843",
+        "background": "#F0F4FA",
+        "text": "#2D3748"
+    },
+    "fonts": {
+        "heading": "Playfair Display",
+        "body": "Inter"
+    }
+}

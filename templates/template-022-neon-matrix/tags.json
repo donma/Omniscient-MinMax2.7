@@ -1,0 +1,42 @@
+{
+  "template_id": "022",
+  "name": "NEON MATRIX",
+  "category": "gaming",
+  "tags": [
+    "gaming",
+    "cyberpunk",
+    "neon",
+    "dark-theme",
+    "esports",
+    "game-store",
+    "streaming",
+    "community",
+    "futuristic",
+    "dark"
+  ],
+  "features": [
+    "neon-glow-effects",
+    "animated-grid-background",
+    "game-card-layouts",
+    "esports-team-display",
+    "live-streamer-grid",
+    "merch-store",
+    "faq-accordion",
+    "job-listings",
+    "contact-form",
+    "community-forum"
+  ],
+  "pages": 12,
+  "css_lines": 600,
+  "color_palette": {
+    "deep_black": "#0D0D0D",
+    "neon_green": "#00FF9F",
+    "neon_pink": "#FF0080",
+    "neon_purple": "#9D00FF",
+    "dark_gray": "#1A1A1A"
+  },
+  "fonts": {
+    "headings": "Orbitron",
+    "body": "Rajdhani"
+  }
+}

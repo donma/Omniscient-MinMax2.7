@@ -1,0 +1,18 @@
+{
+  "id": "template-005",
+  "name": "Zenith Editorial",
+  "category": "專業服務",
+  "tags": ["文字導向", "編輯風格", "法律顧問", "專業服務", "黑白金", "極簡", "高端", "襯線字體", "留白"],
+  "colorScheme": {
+    "black": "#000000",
+    "white": "#fafafa",
+    "grayDark": "#1a1a1a",
+    "grayMid": "#888888",
+    "grayLight": "#e5e5e5",
+    "accent": "#c9a84c"
+  },
+  "fonts": {
+    "heading": "Cormorant Garamond",
+    "body": "DM Sans"
+  }
+}

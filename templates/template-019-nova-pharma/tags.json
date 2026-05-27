@@ -1,0 +1,27 @@
+{
+  "colorScheme": {
+    "primary": "#00897B",
+    "secondary": "#004D40",
+    "accent": "#E8F8F5",
+    "background": "#FFFFFF",
+    "textDark": "#1A3A34",
+    "textLight": "#5A7A74",
+    "border": "#C8E6E0"
+  },
+  "fonts": {
+    "headings": "Nunito Sans",
+    "body": "Source Sans Pro"
+  },
+  "tags": [
+    "製藥",
+    "醫療",
+    "新藥研發",
+    "臨床試驗",
+    "GMP",
+    "制藥公司",
+    "醫藥產品",
+    "台灣製藥",
+    "健康",
+    "製藥業"
+  ]
+}

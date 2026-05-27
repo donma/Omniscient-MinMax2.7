@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Booking — LUMIÈRE Photo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">LUMIÈRE</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="journal.html">Journal</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+  </nav>
+
+  <div class="nav-mobile">
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="journal.html">Journal</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-hero">
+    <p class="page-hero-label">Reserve Your Date</p>
+    <h1 class="page-hero-title">預約<em>檔期</em></h1>
+    <p class="page-hero-sub">填寫基本資料，我們會在 24 小時內與您聯繫，確認拍攝細節並提供正式報價。</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="max-width: 640px; margin: 0 auto;">
+        <form style="display:flex;flex-direction:column;gap:24px;">
+          <div class="form-group">
+            <label class="form-label">新人姓名 *</label>
+            <input class="form-input" type="text" placeholder="新郎姓名 / 新娘姓名">
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+            <div class="form-group">
+              <label class="form-label">聯絡電話 *</label>
+              <input class="form-input" type="tel" placeholder="+886 9xx xxx xxx">
+            </div>
+            <div class="form-group">
+              <label class="form-label">LINE ID</label>
+              <input class="form-input" type="text" placeholder="your_line_id">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email *</label>
+            <input class="form-input" type="email" placeholder="your@email.com">
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+            <div class="form-group">
+              <label class="form-label">婚禮日期 *</label>
+              <input class="form-input" type="date">
+            </div>
+            <div class="form-group">
+              <label class="form-label">婚禮類型</label>
+              <select class="form-select">
+                <option value="">請選擇</option>
+                <option>室內婚宴</option>
+                <option>戶外婚禮</option>
+                <option>教堂婚禮</option>
+                <option>法院公證</option>
+                <option>海外婚禮</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">婚禮場地</label>
+            <input class="form-input" type="text" placeholder="飯店 / 餐廳 / 戶外場地名稱">
+          </div>
+          <div class="form-group">
+            <label class="form-label">需要的服務</label>
+            <div style="display:flex;flex-direction:column;gap:12px;margin-top:8px;">
+              <label style="display:flex;align-items:center;gap:10px;cursor:pointer;"><input type="checkbox"> 婚禮紀實（單機）</label>
+              <label style="display:flex;align-items:center;gap:10px;cursor:pointer;"><input type="checkbox"> 婚禮紀實（雙機）</label>
+              <label style="display:flex;align-items:center;gap:10px;cursor:pointer;"><input type="checkbox"> 婚紗拍攝（戶外）</label>
+              <label style="display:flex;align-items:center;gap:10px;cursor:pointer;"><input type="checkbox"> 婚紗拍攝（室內棚拍）</label>
+              <label style="display:flex;align-items:center;gap:10px;cursor:pointer;"><input type="checkbox"> 孕婦寫真</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">預算範圍</label>
+            <select class="form-select">
+              <option value="">請選擇</option>
+              <option>NT$30,000 – 50,000</option>
+              <option>NT$50,000 – 80,000</option>
+              <option>NT$80,000 以上</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">其他需求或備註</label>
+            <textarea class="form-textarea" placeholder="拍攝地點、人數、特殊需求等..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold" style="align-self:flex-start;">送出預約</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div><div class="footer-brand">LUMIÈRE</div><p class="footer-desc">用鏡頭述說愛情故事。</p></div>
+      <div class="footer-col"><h4>Navigation</h4><ul><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:hello@lumiere.tw">hello@lumiere.tw</a></li><li><a href="tel:+886912345678">+886 912 345 678</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p class="footer-copy">© 2024 LUMIÈRE Photo. All rights reserved.</p></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

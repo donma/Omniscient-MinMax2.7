@@ -1,0 +1,25 @@
+{
+  "id": "template-012",
+  "name": "Prestige Realty",
+  "version": "1.0.0",
+  "description": "高端豪宅不動產網站，Editorial 雜誌風格。象牙白底配啞光金，頂級豪宅的尊貴呈現。適合房地產經紀、物業管理與豪宅行銷。",
+  "category": "豪宅不動產",
+  "industry": "豪宅不動產 / 房地產經紀",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "properties", "name": "精選物件", "file": "properties.html" },
+    { "id": "property-detail", "name": "物件詳情", "file": "property-detail.html" },
+    { "id": "services", "name": "服務項目", "file": "services.html" },
+    { "id": "market-insights", "name": "市場洞察", "file": "market-insights.html" },
+    { "id": "team", "name": "專業團隊", "file": "team.html" },
+    { "id": "testimonials", "name": "客戶推薦", "file": "testimonials.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" },
+    { "id": "mortgage", "name": "貸款試算", "file": "mortgage.html" },
+    { "id": "careers", "name": "人才招募", "file": "careers.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" }
+  ],
+  "colorScheme": { "primary": "#FFFFF0", "gold": "#B8860B", "text": "#333333" },
+  "fonts": { "heading": "Playfair Display", "body": "Montserrat" },
+  "layout": "Magazine Editorial 雜誌風格，大圖主導，啞光金點綴"
+}

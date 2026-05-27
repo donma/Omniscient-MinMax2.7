@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  .split-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .split-left {
+    height: 50vh;
+  }
+
+  .split-right {
+    padding: 48px 24px;
+  }
+
+  .split-year {
+    font-size: 80px;
+    bottom: 40px;
+    right: 24px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .process-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .press-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

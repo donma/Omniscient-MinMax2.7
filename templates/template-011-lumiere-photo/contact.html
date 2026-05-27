@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — LUMIÈRE Photo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <nav class="nav scrolled">
+    <a href="index.html" class="nav-logo">LUMIÈRE</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="journal.html">Journal</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+  </nav>
+
+  <div class="nav-mobile">
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="journal.html">Journal</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-hero">
+    <p class="page-hero-label">Get in Touch</p>
+    <h1 class="page-hero-title">與我們<em>聯絡</em></h1>
+    <p class="page-hero-sub">歡迎填寫以下表單或直接寄 email 給我們，我們會在 24 小時內回覆。</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2 fade-up" style="gap:80px; align-items:start;">
+        <div>
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80" alt="婚禮" style="width:100%;height:360px;object-fit:cover;">
+          <div style="margin-top:32px;">
+            <h3 style="font-family:var(--font-heading);font-size:20px;font-weight:400;margin-bottom:16px;">LUMIÈRE Photo Studio</h3>
+            <div style="display:flex;flex-direction:column;gap:8px;font-size:14px;color:var(--text-light);line-height:1.8;">
+              <p>📍 台北市大安區忠孝東路四段 101 號 12 樓</p>
+              <p>📧 <a href="mailto:hello@lumiere.tw" style="color:var(--gold);">hello@lumiere.tw</a></p>
+              <p>📞 <a href="tel:+886912345678" style="color:var(--gold);">+886 912 345 678</a></p>
+              <p>🕐 週一至週五 10:00 – 19:00（採預約制）</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" style="display:flex;flex-direction:column;gap:20px;">
+          <div class="form-group">
+            <label class="form-label">姓名</label>
+            <input class="form-input" type="text" placeholder="您的大名">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">婚期</label>
+            <input class="form-input" type="text" placeholder="預計婚期（例如：2025年6月）">
+          </div>
+          <div class="form-group">
+            <label class="form-label">需要的服務</label>
+            <select class="form-select">
+              <option value="">請選擇</option>
+              <option>婚禮紀實（單機）</option>
+              <option>婚禮紀實（雙機）</option>
+              <option>婚紗拍攝</option>
+              <option>孕婦寫真</option>
+              <option>海外婚禮拍攝</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">訊息</label>
+            <textarea class="form-textarea" placeholder="請告訴我們您的婚禮場地、大概人數，以及任何想要補充的資訊..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold" style="align-self:flex-start;">送出查詢</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div><div class="footer-brand">LUMIÈRE</div><p class="footer-desc">用鏡頭述說愛情故事。</p></div>
+      <div class="footer-col"><h4>Navigation</h4><ul><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:hello@lumiere.tw">hello@lumiere.tw</a></li><li><a href="tel:+886912345678">+886 912 345 678</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p class="footer-copy">© 2024 LUMIÈRE Photo. All rights reserved.</p></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

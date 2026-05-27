@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  .page-hero-title {
+    font-size: 28px;
+  }
+
+  .header-title {
+    font-size: 16px;
+  }
+
+  .search-box {
+    display: none;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-hero {
+    padding: 24px;
+  }
+
+  .dashboard-hero h2 {
+    font-size: 22px;
+  }
+}

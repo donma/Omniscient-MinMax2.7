@@ -1,0 +1,43 @@
+{
+  "id": "template-005",
+  "name": "Zenith Editorial",
+  "version": "1.0.0",
+  "description": "專業服務文字導向編輯風格，黑白金配色，極致留白，襯線字體建立權威形象。適合律師事務所、財務顧問、高階人資等專業服務產業。",
+  "category": "專業服務",
+  "industry": "法律顧問 / 財務策略 / 高階人資",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "services", "name": "服務項目", "file": "services.html" },
+    { "id": "service-detail", "name": "服務詳情", "file": "service-detail.html" },
+    { "id": "portfolio", "name": "案例實績", "file": "portfolio.html" },
+    { "id": "reviews", "name": "客戶評價", "file": "reviews.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "booking", "name": "預約諮詢", "file": "booking.html" },
+    { "id": "process", "name": "服務流程", "file": "process.html" },
+    { "id": "blog", "name": "專欄文章", "file": "blog.html" },
+    { "id": "blog-detail", "name": "文章詳情", "file": "blog-detail.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" }
+  ],
+  "assets": {
+    "css": ["assets/css/style.css", "assets/css/responsive.css"],
+    "js": ["assets/js/main.js"],
+    "images": ["assets/img/"]
+  },
+  "colorScheme": {
+    "primary": "#000000",
+    "secondary": "#fafafa",
+    "accent": "#c9a84c",
+    "grayDark": "#1a1a1a",
+    "grayMid": "#888888",
+    "grayLight": "#e5e5e5"
+  },
+  "fonts": {
+    "heading": "Cormorant Garamond",
+    "body": "DM Sans",
+    "headingFallback": "Georgia, serif",
+    "bodyFallback": "system-ui, sans-serif"
+  },
+  "layout": "編輯文字導向，Asymmetric Editorial Grid，非對稱 7:5/8:4 比例分割",
+  "uniqueSellingPoint": "以閱讀體驗為核心，極致留白，襯線字體建立權威感，黑白金配色呈現高端專業形象"
+}

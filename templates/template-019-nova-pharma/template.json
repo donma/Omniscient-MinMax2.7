@@ -1,0 +1,66 @@
+{
+  "name": "NovaPharma 新星製藥",
+  "description": "清新薄荷風格的醫療製藥公司網站模板，包含完整的12個頁面，以曲線分隔線和專業設計營造清新、值得信賴的形象。",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "首頁",
+      "description": "包含品牌介紹、核心價值、產品概覽、統計數據、團隊展示等模塊"
+    },
+    {
+      "file": "about.html",
+      "title": "關於我們",
+      "description": "公司歷史、願景使命、核心價值、全球布局、國際認證"
+    },
+    {
+      "file": "products.html",
+      "title": "產品專區",
+      "description": "按治療領域分類展示所有產品，包括心血管、代謝疾病、抗感染、神經系統"
+    },
+    {
+      "file": "product-detail.html",
+      "title": "產品詳情 - 心舒寧膠囊",
+      "description": "單一產品詳細頁面，包含適應症、作用機制、臨床數據、使用方法"
+    },
+    {
+      "file": "research.html",
+      "title": "研發創新",
+      "description": "研發概況、研究領域、臨床試驗管線、研究設備"
+    },
+    {
+      "file": "team.html",
+      "title": "團隊成員",
+      "description": "經營團隊、核心研發專家、國際顧問委員會"
+    },
+    {
+      "file": "publications.html",
+      "title": "研究成果",
+      "description": "發表於國際期刊的論文列表，按年份分類"
+    },
+    {
+      "file": "publication-detail.html",
+      "title": "論文詳情",
+      "description": "單一論文詳細內容，包含研究背景、方法、結果、結論"
+    },
+    {
+      "file": "faq.html",
+      "title": "常見問題",
+      "description": "按類別分類的FAQ，包含產品相關、合作相關、人才相關"
+    },
+    {
+      "file": "contact.html",
+      "title": "聯絡我們",
+      "description": "聯絡表單、公司地址、電話、服務時間、服務據點"
+    },
+    {
+      "file": "careers.html",
+      "description": "人才招募",
+      "description": "人才招募：最新職缺、員工福利制度"
+    },
+    {
+      "file": "news.html",
+      "title": "最新消息",
+      "description": "公司最新動態、新聞發布、活動公告"
+    }
+  ]
+}

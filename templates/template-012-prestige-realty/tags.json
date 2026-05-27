@@ -1,0 +1,8 @@
+{
+  "id": "template-012",
+  "name": "Prestige Realty",
+  "category": "豪宅不動產",
+  "tags": ["豪宅", "不動產", "Editorial", "啞光金", "象牙白", "Playfair Display", "Mont Blanc", "房地產", "奢侈品"],
+  "colorScheme": { "bg": "#FFFFF0", "gold": "#B8860B", "text": "#333333", "textLight": "#777777", "white": "#FFFFFF", "border": "#E5E0D0" },
+  "fonts": { "heading": "Playfair Display", "body": "Montserrat" }
+}

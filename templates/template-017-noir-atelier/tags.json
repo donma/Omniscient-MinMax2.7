@@ -1,0 +1,36 @@
+{
+  "template_id": "017",
+  "name": "NOIR Atelier",
+  "category": "fashion",
+  "tags": [
+    "時尚",
+    "服飾",
+    "黑色美學",
+    "編輯風",
+    "奢侈品",
+    "當代時尚",
+    "極簡主義",
+    "黑色",
+    "高端"
+  ],
+  "features": [
+    "無導航全屏首頁",
+    "編輯式非對稱網格",
+    "Editorial Grid",
+    "黑色美學",
+    "Cinzel 羅馬大寫字體",
+    "過渡動畫"
+  ],
+  "pages": 12,
+  "css_lines": 701,
+  "color_palette": {
+    "black": "#0D0D0D",
+    "gray_black": "#1A1A1A",
+    "warm_white": "#F5F0EB",
+    "gold": "#C9A96E"
+  },
+  "fonts": {
+    "headings": "Cinzel",
+    "body": "Montserrat"
+  }
+}

@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Large generated image files (optional - uncomment if needed)
+# assets/img/*.jpg
+# !assets/img/template-*-preview.jpg
+# !assets/img/showcase-site-preview.jpg

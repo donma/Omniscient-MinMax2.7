@@ -1,0 +1,18 @@
+{
+  "name": "VORTEX AUTO",
+  "description": "全螢幕電影感 Hero 設計的汽車產業網站模板，深色主題搭配霓虹綠點綴，營造高級跑車品牌的科技感與速度感。",
+  "pages": [
+    {"file": "index.html", "title": "首頁", "description": "全屏英雄區塊、品牌展示、車型滑塊、特色介紹、新聞動態"},
+    {"file": "models.html", "title": "全部車型", "description": "VORTEX GT、RS、EV、S、X、GT S等全部車型展示"},
+    {"file": "model-detail.html", "title": "車型詳情 - VORTEX GT", "description": "單一車型完整頁面，包含規格數據、功能特色、畫廊"},
+    {"file": "technology.html", "title": "技術介紹", "description": "動力技術、VORTEX Connect系統、ADAS自動駕駛等"},
+    {"file": "experience.html", "title": "體驗活動", "description": "賽道日、風景路線、VIP活動等車主體驗"},
+    {"file": "ownership.html", "title": "車主服務", "description": "VORTEX Care、全天候道路救援、保養服務、車主APP"},
+    {"file": "gallery.html", "title": "畫廊", "description": "車輛圖片和影片展示"},
+    {"file": "news.html", "title": "最新消息", "description": " Nürburgring紀錄、年度車獎、設計中心開業等新聞"},
+    {"file": "news-detail.html", "title": "新聞詳情", "description": "單一新聞完整內容"},
+    {"file": "contact.html", "title": "聯絡我們", "description": "聯絡表單、公司資訊、位置"},
+    {"file": "test-drive.html", "title": "預約試駕", "description": "試駕預約表單"},
+    {"file": "careers.html", "title": "人才招募", "description": "職缺列表"}
+  ]
+}

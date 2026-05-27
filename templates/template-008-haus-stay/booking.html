@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>線上預訂 — Haus Stay</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <nav class="nav"><div class="nav-logo">Haus</div><div class="nav-links"><a href="index.html">首頁</a><a href="rooms.html">房型</a><a href="experience.html">體驗</a><a href="journal.html">日誌</a><a href="booking.html" class="active">預訂</a></div><button class="nav-toggle" aria-label="選單"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="12" x2="21" y2="12"/></svg></button></nav>
+  <div class="nav-mobile"><a href="index.html">首頁</a><a href="rooms.html">房型</a><a href="experience.html">體驗</a><a href="journal.html">日誌</a><a href="booking.html">預訂</a></div>
+
+  <div class="page-hero"><span class="section-eyebrow">Booking</span><h1 class="page-hero-title">開始預訂</h1><p class="page-hero-sub">請填寫以下表單，我們會在24小時內與您聯繫確認。</p></div>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2 fade-in" style="max-width: 800px; margin: 0 auto;">
+        <form>
+          <div class="form-group"><label class="form-label">姓名</label><input type="text" class="form-input" placeholder="您的姓名"></div>
+          <div class="form-group"><label class="form-label">電子郵件</label><input type="email" class="form-input" placeholder="your@email.com"></div>
+          <div class="form-group"><label class="form-label">電話</label><input type="tel" class="form-input" placeholder="+886 9xx xxx xxx"></div>
+          <div class="form-group"><label class="form-label">入住日期</label><input type="date" class="form-input"></div>
+          <div class="form-group"><label class="form-label">退房日期</label><input type="date" class="form-input"></div>
+          <div class="form-group"><label class="form-label">房型</label><select class="form-select"><option>請選擇</option><option>海天一線（海景）</option><option>山嵐（山景）</option><option>森活（森林景）</option><option>曙光（側海景）</option><option>家庭套房</option></select></div>
+          <div class="form-group"><label class="form-label">人數</label><select class="form-select"><option>2人</option><option>3人</option><option>4人</option></select></div>
+          <div class="form-group"><label class="form-label">特殊需求</label><textarea class="form-textarea" placeholder="任何特殊需求、過敏、紀念日等..."></textarea></div>
+          <button type="submit" class="btn btn-accent">送出預訂查詢</button>
+        </form>
+        <div>
+          <h3 style="font-family: var(--font-heading); font-size: 22px; margin-bottom: 20px;">預訂說明</h3>
+          <p class="text-light" style="line-height: 2; margin-bottom: 16px;">我們的訂房流程分為兩步：先填寫查詢表，我們確認後再發送付款連結。請勿直接轉帳。</p>
+          <p class="text-light" style="line-height: 2; margin-bottom: 16px;">入住前7天內取消將收取50%費用，入住3天內取消收取80%費用。</p>
+          <p class="text-light" style="line-height: 2;">入住時間15:00，退房時間11:00。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer"><div class="footer-top"><div><div class="footer-brand">Haus</div><p class="footer-desc">讓時間慢下來的地方。</p></div><div class="footer-col"><h4>探索</h4><ul><li><a href="rooms.html">房型介紹</a></li><li><a href="experience.html">特色體驗</a></li></ul></div><div class="footer-col"><h4>賽道</h4><ul><li><a href="about.html">關於我們</a></li><li><a href="contact.html">聯絡我們</a></li></ul></div></div><div class="footer-bottom"><span class="footer-copy">© 2026 Haus Stay. All rights reserved.</span></div></footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

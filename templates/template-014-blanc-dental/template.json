@@ -1,0 +1,24 @@
+{
+  "id": "template-014",
+  "name": "Blanc Dental",
+  "version": "1.0.0",
+  "description": "現代牙科診所網站，Clean Minimal 設計。薄荷綠與純白配色，極度專業與清新。適合牙科、醫美與健康照護機構。",
+  "category": "牙科診所",
+  "industry": "牙科 / 醫美 / 健康照護",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "services", "name": "服務項目", "file": "services.html" },
+    { "id": "doctors", "name": "醫師團隊", "file": "doctors.html" },
+    { "id": "appointments", "name": "預約門診", "file": "appointments.html" },
+    { "id": "testimonials", "name": "患者推薦", "file": "testimonials.html" },
+    { "id": "blog", "name": "口腔百科", "file": "blog.html" },
+    { "id": "blog-detail", "name": "文章詳情", "file": "blog-detail.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" },
+    { "id": "insurance", "name": "健保與費用", "file": "insurance.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" }
+  ],
+  "colorScheme": { "primary": "#FFFFFF", "mint": "#E8F5F0", "teal": "#0D9488", "text": "#333333" },
+  "fonts": { "heading": "Nunito Sans", "body": "Nunito Sans" },
+  "layout": "Clean Minimal 超乾淨設計，大量留白，薄荷綠清新感"
+}

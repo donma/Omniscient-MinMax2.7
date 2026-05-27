@@ -1,0 +1,8 @@
+{
+  "id": "template-013",
+  "name": "Brasserie 1888",
+  "category": "精釀啤酒",
+  "tags": ["精釀啤酒", "手工餐酒", "Split Image", "深琥珀", "銅色", "Playfair Display", "啤酒廠", "餐酒館"],
+  "colorScheme": { "bg": "#2C1810", "bgWarm": "#3D2517", "copper": "#B87333", "cream": "#F5FDE8", "text": "#F5FDE8", "textMuted": "#A89080", "white": "#FFFFFF" },
+  "fonts": { "heading": "Playfair Display", "body": "Source Sans 3" }
+}

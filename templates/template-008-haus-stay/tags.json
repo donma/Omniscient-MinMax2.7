@@ -1,0 +1,19 @@
+{
+  "id": "template-008",
+  "name": "Haus Stay",
+  "category": "精品民宿",
+  "tags": ["精品民宿", "設計旅店", "瑞士極簡", "單欄編排", "Instrument Serif", "留白", "暖白色", "低調奢華"],
+  "colorScheme": {
+    "bg": "#FAFAF9",
+    "bgWarm": "#F5F3F0",
+    "text": "#18181B",
+    "textLight": "#737373",
+    "textLighter": "#A3A3A3",
+    "accent": "#D97706",
+    "border": "#E5E5E5"
+  },
+  "fonts": {
+    "heading": "Instrument Serif",
+    "body": "Inter"
+  }
+}

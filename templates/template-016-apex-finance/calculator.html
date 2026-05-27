@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>理財計算機 - Apex Finance 峰會金融</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="layout-portal">
+        <aside class="portal-sidebar">
+            <div class="sidebar-brand"><h1>APEX</h1><span>Finance</span></div>
+            <nav class="portal-nav">
+                <div class="portal-nav-section">
+                    <div class="portal-nav-section-title">主要</div>
+                    <a href="index.html" class="portal-nav-link"><i class="fas fa-home"></i><span>首頁</span></a>
+                    <a href="about.html" class="portal-nav-link"><i class="fas fa-building"></i><span>關於我們</span></a>
+                    <a href="services.html" class="portal-nav-link"><i class="fas fa-handshake"></i><span>服務項目</span></a>
+                </div>
+                <div class="portal-nav-section">
+                    <div class="portal-nav-section-title">產品</div>
+                    <a href="products.html" class="portal-nav-link"><i class="fas fa-box"></i><span>金融產品</span></a>
+                    <a href="calculator.html" class="portal-nav-link active"><i class="fas fa-calculator"></i><span>計算機</span></a>
+                </div>
+                <div class="portal-nav-section">
+                    <div class="portal-nav-section-title">資訊</div>
+                    <a href="insights.html" class="portal-nav-link"><i class="fas fa-chart-line"></i><span>市場洞察</span></a>
+                    <a href="team.html" class="portal-nav-link"><i class="fas fa-users"></i><span>專業團隊</span></a>
+                </div>
+                <div class="portal-nav-section">
+                    <div class="portal-nav-section-title">支援</div>
+                    <a href="faq.html" class="portal-nav-link"><i class="fas fa-question-circle"></i><span>常見問題</span></a>
+                    <a href="contact.html" class="portal-nav-link"><i class="fas fa-envelope"></i><span>聯絡我們</span></a>
+                </div>
+            </nav>
+            <div class="sidebar-footer"><p>客戶服務專線</p><div class="sidebar-contact">+886 2 5555 1234</div></div>
+        </aside>
+        <main class="portal-main">
+            <header class="portal-topbar">
+                <div class="topbar-search"><i class="fas fa-search"></i><input type="text" placeholder="搜尋金融產品、指數、研究報告..."></div>
+                <div class="topbar-actions">
+                    <a href="#"><i class="fas fa-bell"></i></a>
+                    <a href="#"><i class="fas fa-cog"></i></a>
+                    <div class="user-avatar">陳</div>
+                </div>
+            </header>
+            <div class="page-content">
+                <section class="page-hero">
+                    <h1>理財計算機</h1>
+                    <p>強大的理財工具，幫助您規劃未來的財務目標</p>
+                    <div class="breadcrumb"><a href="index.html">首頁</a><span>/</span><span>計算機</span></div>
+                </section>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px;">
+                    <div>
+                        <section class="calculator-section">
+                            <h3 style="font-size: 20px; margin-bottom: 24px; color: var(--navy);">存款利息試算</h3>
+                            <div class="form-group">
+                                <label>存款金額 (新台幣)</label>
+                                <input type="number" id="deposit-amount" value="1000000" placeholder="請輸入存款金額">
+                            </div>
+                            <div class="form-group">
+                                <label>年利率 (%)</label>
+                                <input type="number" id="deposit-rate" value="2.85" step="0.01" placeholder="請輸入年利率">
+                            </div>
+                            <div class="form-group">
+                                <label>存款期限 (月)</label>
+                                <select id="deposit-months">
+                                    <option value="3">3 個月</option>
+                                    <option value="6">6 個月</option>
+                                    <option value="12" selected>12 個月</option>
+                                    <option value="24">24 個月</option>
+                                    <option value="36">36 個月</option>
+                                </select>
+                            </div>
+                            <button class="btn-primary" onclick="calculateDeposit()">開始試算</button>
+                        </section>
+
+                        <section class="calculator-section" style="margin-top: 24px;">
+                            <h3 style="font-size: 20px; margin-bottom: 24px; color: var(--navy);">房貸月付額試算</h3>
+                            <div class="form-group">
+                                <label>房貸金額 (新台幣)</label>
+                                <input type="number" id="loan-amount" value="20000000" placeholder="請輸入房貸金額">
+                            </div>
+                            <div class="form-group">
+                                <label>貸款利率 (%)</label>
+                                <input type="number" id="loan-rate" value="1.6" step="0.01" placeholder="請輸入利率">
+                            </div>
+                            <div class="form-group">
+                                <label>貸款期限 (年)</label>
+                                <select id="loan-years">
+                                    <option value="10">10 年</option>
+                                    <option value="15">15 年</option>
+                                    <option value="20" selected>20 年</option>
+                                    <option value="30">30 年</option>
+                                </select>
+                            </div>
+                            <button class="btn-primary" onclick="calculateLoan()">開始試算</button>
+                        </section>
+                    </div>
+
+                    <div>
+                        <div class="calculator-result">
+                            <h3 style="color: var(--white); margin-bottom: 24px; font-size: 20px;">試算結果</h3>
+                            <div id="result-display">
+                                <p style="color: var(--gray-300);">請輸入資料並點擊試算按鈕</p>
+                            </div>
+                        </div>
+
+                        <section class="data-card" style="margin-top: 24px;">
+                            <div class="data-card-header"><h3>理財小提示</h3></div>
+                            <div class="data-card-body">
+                                <p style="color: var(--gray-600); font-size: 14px; line-height: 1.8; margin-bottom: 12px;">
+                                    <i class="fas fa-lightbulb" style="color: var(--gold); margin-right: 8px;"></i>
+                                    複利是世界第八大奇蹟。愛因斯坦</p>
+                                <p style="color: var(--gray-600); font-size: 14px; line-height: 1.8;">
+                                    定期定額投資可以有效降低市場波動的影響，長期持有通常能獲得穩健的回報。</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script>
+        function calculateDeposit() {
+            var amount = parseFloat(document.getElementById('deposit-amount').value);
+            var rate = parseFloat(document.getElementById('deposit-rate').value) / 100;
+            var months = parseInt(document.getElementById('deposit-months').value);
+            var interest = amount * rate * (months / 12);
+            var total = amount + interest;
+            document.getElementById('result-display').innerHTML = 
+                '<div class="result-amount">$' + interest.toLocaleString('zh-TW', {minimumFractionDigits: 0, maximumFractionDigits: 0}) + '</div>' +
+                '<div class="result-label">預估利息收入</div>' +
+                '<div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.2);">' +
+                '<div style="display: flex; justify-content: space-between; margin-bottom: 8px;">' +
+                '<span style="color: var(--gray-300);">本金</span>' +
+                '<span style="color: var(--white);">$' + amount.toLocaleString('zh-TW') + '</span></div>' +
+                '<div style="display: flex; justify-content: space-between;">' +
+                '<span style="color: var(--gray-300);">到期總額</span>' +
+                '<span style="color: var(--gold); font-weight: 600;">$' + total.toLocaleString('zh-TW', {minimumFractionDigits: 0, maximumFractionDigits: 0}) + '</span></div></div>';
+        }
+        function calculateLoan() {
+            var amount = parseFloat(document.getElementById('loan-amount').value);
+            var rate = parseFloat(document.getElementById('loan-rate').value) / 100 / 12;
+            var years = parseInt(document.getElementById('loan-years').value);
+            var payments = years * 12;
+            var monthly = amount * (rate * Math.pow(1 + rate, payments)) / (Math.pow(1 + rate, payments) - 1);
+            var total = monthly * payments;
+            document.getElementById('result-display').innerHTML = 
+                '<div class="result-amount">$' + Math.round(monthly).toLocaleString('zh-TW') + '</div>' +
+                '<div class="result-label">每月月付額</div>' +
+                '<div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.2);">' +
+                '<div style="display: flex; justify-content: space-between; margin-bottom: 8px;">' +
+                '<span style="color: var(--gray-300);">貸款金額</span>' +
+                '<span style="color: var(--white);">$' + amount.toLocaleString('zh-TW') + '</span></div>' +
+                '<div style="display: flex; justify-content: space-between;">' +
+                '<span style="color: var(--gray-300);">還款總額</span>' +
+                '<span style="color: var(--gold); font-weight: 600;">$' + Math.round(total).toLocaleString('zh-TW') + '</span></div></div>';
+        }
+    </script>
+</body>
+</html>

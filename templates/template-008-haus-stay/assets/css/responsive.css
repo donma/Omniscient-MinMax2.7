@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+  :root {
+    --page-padding: 24px;
+    --section-gap: 60px;
+  }
+
+  .page-hero {
+    padding: 120px var(--page-padding) 48px;
+  }
+
+  .grid-2 {
+    gap: 24px;
+  }
+
+  .room-card {
+    margin-bottom: 48px;
+  }
+
+  .room-image img {
+    height: 240px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journal-detail-hero {
+    height: 200px;
+  }
+}

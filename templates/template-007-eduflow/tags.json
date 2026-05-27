@@ -1,0 +1,22 @@
+{
+  "id": "template-007",
+  "name": "EduFlow",
+  "category": "線上學習",
+  "tags": ["線上學習", "教育科技", "Metro Tiles", "儀表板", "Plus Jakarta Sans", "靛藍翠綠", "進度追蹤", "課程平台"],
+  "colorScheme": {
+    "bg": "#F8FAFC",
+    "bgCard": "#FFFFFF",
+    "primary": "#4F46E5",
+    "primaryLight": "#EEF2FF",
+    "accent": "#10B981",
+    "accentLight": "#ECFDF5",
+    "warning": "#F59E0B",
+    "text": "#1E293B",
+    "textLight": "#64748B",
+    "border": "#E2E8F0"
+  },
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter"
+  }
+}

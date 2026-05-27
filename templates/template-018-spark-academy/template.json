@@ -1,0 +1,115 @@
+{
+  "id": "template-018",
+  "name": "Spark Academy",
+  "description": "教育培訓網站模板，採用卡片方格設計與進度追蹤系統。適合線上課程平台、訓練機構、學校網站使用。",
+  "category": "教育培訓",
+  "version": "1.0.0",
+  "created": "2024-12-15",
+  "author": "Spark Academy Team",
+  "features": [
+    "12個完整HTML頁面",
+    "450+行獨特CSS樣式",
+    "響應式設計",
+    "卡片方格佈局",
+    "進度追蹤系統",
+    "專業導師頁面",
+    "定價方案頁面",
+    "常見問題頁面",
+    "部落格系統",
+    "人才招募頁面",
+    "聯絡表單",
+    "FontAwesome圖標",
+    "Google Fonts字體"
+  ],
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "首頁",
+      "description": "網站主頁，包含Hero區塊、進度追蹤、熱門課程、統計數據、導師介紹、定價方案"
+    },
+    {
+      "file": "about.html",
+      "title": "關於我們",
+      "description": "公司介紹、使命願景、核心價值、發展歷程、團隊成員"
+    },
+    {
+      "file": "courses.html",
+      "title": "課程總覽",
+      "description": "所有課程列表，展示所有可選課程"
+    },
+    {
+      "file": "course-detail.html",
+      "title": "課程詳情",
+      "description": "單一課程詳細頁面，包含課程大綱、教學內容、學員評價"
+    },
+    {
+      "file": "mentors.html",
+      "title": "導師團隊",
+      "description": "所有導師介紹，展示導師專業背景與經驗"
+    },
+    {
+      "file": "pricing.html",
+      "title": "訂閱方案",
+      "description": "定價頁面，包含三種方案與比較表"
+    },
+    {
+      "file": "testimonials.html",
+      "title": "學員推薦",
+      "description": "學員成功案例與推薦語"
+    },
+    {
+      "file": "faq.html",
+      "title": "常見問題",
+      "description": "FAQ問答頁面，使用手風琴展開效果"
+    },
+    {
+      "file": "blog.html",
+      "title": "部落格",
+      "description": "部落格文章列表"
+    },
+    {
+      "file": "blog-detail.html",
+      "title": "部落格文章",
+      "description": "單一文章詳細頁面"
+    },
+    {
+      "file": "contact.html",
+      "title": "聯絡我們",
+      "description": "聯絡表單與聯絡資訊"
+    },
+    {
+      "file": "careers.html",
+      "title": "人才招募",
+      "description": "職缺列表與福利待遇"
+    }
+  ],
+  "assets": {
+    "css": [
+      {
+        "file": "assets/css/style.css",
+        "lines": 950,
+        "description": "完整CSS樣式表，包含所有組件與響應式設計"
+      }
+    ],
+    "js": [
+      {
+        "file": "assets/js/main.js",
+        "description": "JavaScript功能：導航選單、FAQ手風琴、回到頂部、滾動動畫"
+      }
+    ]
+  },
+  "dependencies": {
+    "fonts": [
+      "Poppins (600, 700, 800)",
+      "Inter (400, 500, 600, 700)"
+    ],
+    "icons": [
+      "FontAwesome 6.5.1"
+    ]
+  },
+  "responsive": {
+    "desktop": "1024px+",
+    "tablet": "768px - 1023px",
+    "mobile": "767px and below"
+  }
+}

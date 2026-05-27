@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment — Blanc Dental</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Blanc Dental</a>
+    <div class="nav-links">
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="doctors.html">Doctors</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="appointments.html" class="nav-cta">Book Appointment</a>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+  </nav>
+
+  <div class="nav-mobile">
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="doctors.html">Doctors</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-hero">
+    <p class="page-hero-label">Schedule a Visit</p>
+    <h1 class="page-hero-title">預約<em>門診</em></h1>
+    <p class="page-hero-sub">填寫以下表單，我們會致電確認預約時間。</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="max-width:640px;margin:0 auto;">
+        <form style="display:flex;flex-direction:column;gap:24px;">
+          <div class="form-group">
+            <label class="form-label">姓名 *</label>
+            <input class="form-input" type="text" placeholder="您的姓名">
+          </div>
+          <div class="form-group">
+            <label class="form-label">電話 *</label>
+            <input class="form-input" type="tel" placeholder="+886 9xx xxx xxx">
+          </div>
+          <div class="form-group">
+            <label class="form-label"> Email</label>
+            <input class="form-input" type="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">想看哪一位醫師？</label>
+            <select class="form-select">
+              <option value="">不指定醫師</option>
+              <option>陳志明 醫師（植牙）</option>
+              <option>林怡君 醫師（齒顎矫正）</option>
+              <option>張家維 醫師（一般牙科）</option>
+              <option>王淑芬 醫師（牙周）</option>
+              <option>黃建志 醫師（口腔外科）</option>
+              <option>李明芳 醫師（牙髓病）</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">想看哪一個門診？</label>
+            <select class="form-select">
+              <option value="">請選擇</option>
+              <option>一般檢查 / 洗牙</option>
+              <option>牙齒美白</option>
+              <option>齒顎矫正諮詢</option>
+              <option>植牙諮詢</option>
+              <option>牙周治療</option>
+              <option>其他</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">希望的看診日期</label>
+            <input class="form-input" type="date">
+          </div>
+          <div class="form-group">
+            <label class="form-label">其他說明或需求</label>
+            <textarea class="form-textarea" placeholder="過敏史、正在服用的藥物、或任何想要補充的資訊..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">送出預約</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div><div class="footer-brand">Blanc Dental</div><p class="footer-desc">您的笑容，是我們的使命。</p></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="tel:+886227181234">+886 2 2718 1234</a></li><li><a href="mailto:info@blanc.tw">info@blanc.tw</a></li><li>台北市大安區</li></ul></div>
+    </div>
+    <div class="footer-bottom"><p class="footer-copy">© 2024 Blanc Dental. All rights reserved.</p></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

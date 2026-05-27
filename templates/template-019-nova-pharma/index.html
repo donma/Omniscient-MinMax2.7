@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaPharma 新星製藥 | 創新醫療解決方案</title>
+    <meta name="description" content="NovaPharma 新星製藥致力於研發創新藥物，為全球患者提供優質醫療解決方案。">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="nova-body">
+    <header class="nova-header">
+        <div class="nova-header-inner">
+            <a href="index.html" class="nova-logo">
+                <div class="nova-logo-icon">
+                    <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+                </div>
+                <span class="nova-logo-text">Nova<span>Pharma</span></span>
+            </a>
+            <nav>
+                <ul class="nova-nav-list">
+                    <li><a href="index.html" class="nova-nav-link active">首頁</a></li>
+                    <li class="nova-nav-dropdown">
+                        <a href="about.html" class="nova-nav-link nova-dropdown-trigger">
+                            關於我們
+                            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                        </a>
+                        <div class="nova-dropdown-menu">
+                            <a href="about.html" class="nova-dropdown-item">公司簡介</a>
+                            <a href="team.html" class="nova-dropdown-item">團隊成員</a>
+                            <a href="publications.html" class="nova-dropdown-item">研究成果</a>
+                        </div>
+                    </li>
+                    <li class="nova-nav-dropdown">
+                        <a href="products.html" class="nova-nav-link nova-dropdown-trigger">
+                            產品專區
+                            <svg viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                        </a>
+                        <div class="nova-dropdown-menu">
+                            <a href="products.html" class="nova-dropdown-item">全部產品</a>
+                            <a href="product-detail.html" class="nova-dropdown-item">處方藥物</a>
+                        </div>
+                    </li>
+                    <li><a href="research.html" class="nova-nav-link">研發創新</a></li>
+                    <li><a href="news.html" class="nova-nav-link">最新消息</a></li>
+                    <li><a href="contact.html" class="nova-nav-link">聯絡我們</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="nova-header-cta">免費諮詢</a>
+            <button class="nova-mobile-toggle" aria-label="選單">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="nova-hero">
+        <div class="nova-hero-content">
+            <div class="nova-hero-text">
+                <div class="nova-hero-badge">GMP認證製藥廠</div>
+                <h1 class="nova-hero-title">創新藥物研發<br><span>守護健康人生</span></h1>
+                <p class="nova-hero-description">NovaPharma 新星製藥專注於創新藥物研發與製造，引進國際頂尖製藥技術，為醫療專業人員與患者提供安全、有效、高品質的醫藥解決方案。</p>
+                <div class="nova-hero-buttons">
+                    <a href="products.html" class="nova-btn-primary">
+                        探索產品
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                    </a>
+                    <a href="about.html" class="nova-btn-secondary">了解更多</a>
+                </div>
+            </div>
+            <div class="nova-hero-visual">
+                <div class="nova-hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=85" alt="製藥研發實驗室">
+                </div>
+                <div class="nova-hero-float-card">
+                    <div class="nova-float-card-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    </div>
+                    <div class="nova-float-card-text">
+                        <div class="nova-float-card-number">98.7%</div>
+                        <div class="nova-float-card-label">產品合格率</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nova-wave-divider">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path fill="#FFFFFF" d="M0,64 C480,150 960,-20 1440,64 L1440,120 L0,120 Z"/>
+            </svg>
+        </div>
+    </section>
+
+    <section class="nova-section">
+        <div class="nova-container">
+            <div class="nova-section-header">
+                <span class="nova-section-label">核心價值</span>
+                <h2 class="nova-section-title">為何選擇新星製藥</h2>
+                <p class="nova-section-description">我們以科學為基礎，以患者為中心，提供值得信賴的醫藥產品與服務。</p>
+            </div>
+            <div class="nova-grid-3">
+                <div class="nova-product-card">
+                    <div class="nova-product-image">
+                        <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&q=85" alt="研發創新">
+                        <span class="nova-product-badge"> innovation</span>
+                    </div>
+                    <div class="nova-product-content">
+                        <div class="nova-product-category">研發創新</div>
+                        <h3 class="nova-product-name">尖端藥物研發</h3>
+                        <p class="nova-product-description">擁有國際認證的研發團隊，專注於新藥開發與改良配方，提供更有效的治療方案。</p>
+                        <a href="research.html" class="nova-product-link">
+                            了解詳情
+                            <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nova-product-card">
+                    <div class="nova-product-image">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=85" alt="品質保證">
+                    </div>
+                    <div class="nova-product-content">
+                        <div class="nova-product-category">品質保證</div>
+                        <h3 class="nova-product-name">GMP認證工廠</h3>
+                        <p class="nova-product-description">符合國際藥品生產品質管理規範，通過ISO及GMP雙重認證，確保每一項產品的品質安全。</p>
+                        <a href="about.html" class="nova-product-link">
+                            了解詳情
+                            <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nova-product-card">
+                    <div class="nova-product-image">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&q=85" alt="全球布局">
+                    </div>
+                    <div class="nova-product-content">
+                        <div class="nova-product-category">全球布局</div>
+                        <h3 class="nova-product-name">國際市場認可</h3>
+                        <p class="nova-product-description">產品出口至全球30多個國家和地區，獲得美國FDA、歐盟EMA等國際認證。</p>
+                        <a href="products.html" class="nova-product-link">
+                            了解詳情
+                            <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nova-section nova-section-light">
+        <div class="nova-container">
+            <div class="nova-section-header">
+                <span class="nova-section-label">研究成果</span>
+                <h2 class="nova-section-title">數據說明實力</h2>
+                <p class="nova-section-description">多年的研發投入與技術累積，轉化為具體的醫療突破與患者福祉。</p>
+            </div>
+            <div class="nova-stats-row">
+                <div class="nova-stat-ring">
+                    <div class="nova-ring-wrapper">
+                        <svg class="nova-ring-svg" width="140" height="140" viewBox="0 0 140 140">
+                            <circle class="nova-ring-bg" cx="70" cy="70" r="60"/>
+                            <circle class="nova-ring-progress" cx="70" cy="70" r="60"/>
+                        </svg>
+                        <span class="nova-ring-value" data-percent="95">95%</span>
+                    </div>
+                    <span class="nova-ring-label">研發成功率</span>
+                </div>
+                <div class="nova-stat-ring">
+                    <div class="nova-ring-wrapper">
+                        <svg class="nova-ring-svg" width="140" height="140" viewBox="0 0 140 140">
+                            <circle class="nova-ring-bg" cx="70" cy="70" r="60"/>
+                            <circle class="nova-ring-progress" cx="70" cy="70" r="60"/>
+                        </svg>
+                        <span class="nova-ring-value" data-percent="87">87%</span>
+                    </div>
+                    <span class="nova-ring-label">客戶滿意度</span>
+                </div>
+                <div class="nova-stat-ring">
+                    <div class="nova-ring-wrapper">
+                        <svg class="nova-ring-svg" width="140" height="140" viewBox="0 0 140 140">
+                            <circle class="nova-ring-bg" cx="70" cy="70" r="60"/>
+                            <circle class="nova-ring-progress" cx="70" cy="70" r="60"/>
+                        </svg>
+                        <span class="nova-ring-value" data-percent="72">72%</span>
+                    </div>
+                    <span class="nova-ring-label">市場佔有率</span>
+                </div>
+                <div class="nova-stat-ring">
+                    <div class="nova-ring-wrapper">
+                        <svg class="nova-ring-svg" width="140" height="140" viewBox="0 0 140 140">
+                            <circle class="nova-ring-bg" cx="70" cy="70" r="60"/>
+                            <circle class="nova-ring-progress" cx="70" cy="70" r="60"/>
+                        </svg>
+                        <span class="nova-ring-value" data-percent="100">100%</span>
+                    </div>
+                    <span class="nova-ring-label">法規認證通過率</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nova-section">
+        <div class="nova-container">
+            <div class="nova-section-header">
+                <span class="nova-section-label">產品專區</span>
+                <h2 class="nova-section-title">主要產品線</h2>
+                <p class="nova-section-description">涵蓋多個治療領域的優質藥物，為醫療專業人員提供多樣化的治療選擇。</p>
+            </div>
+            <div class="nova-grid-4">
+                <div class="nova-product-card">
+                    <div class="nova-product-image">
+                        <img src="https://images.unsplash.com/photo-1550572017-edd951b55104?w=800&q=85" alt="心血管藥物">
+                    </div>
+                    <div class="nova-product-content">
+                        <div class="nova-product-category">心血管</div>
+                        <h3 class="nova-product-name">心舒寧膠囊</h3>
+                        <p class="nova-product-description">有效控制血壓，保護心血管健康。</p>
+                        <a href="product-detail.html" class="nova-product-link">
+                            了解詳情
+                            <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nova-product-card">
+                    <div class="nova-product-image">
+                        <img src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=800&q=85" alt="糖尿病藥物">
+                    </div>
+                    <div class="nova-product-content">
+                        <div class="nova-product-category">代謝疾病</div>
+                        <h3 class="nova-product-name">糖倍康錠</h3>
+                        <p class="nova-product-description">穩定血糖，改善胰島素敏感性。</p>
+                        <a href="product-detail.html" class="nova-product-link">
+                            了解詳情
+                            <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nova-product-card">
+                    <div class="nova-product-image">
+                        <img src="https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=800&q=85" alt="抗感染藥物">
+                    </div>
+                    <div class="nova-product-content">
+                        <div class="nova-product-category">抗感染</div>
+                        <h3 class="nova-product-name">泌感寧懸液</h3>
+                        <p class="nova-product-description">有效對抗泌尿道感染，安全性高。</p>
+                        <a href="product-detail.html" class="nova-product-link">
+                            了解詳情
+                            <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="nova-product-card">
+                    <div class="nova-product-image">
+                        <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&q=85" alt="神經系統藥物">
+                    </div>
+                    <div class="nova-product-content">
+                        <div class="nova-product-category">神經系統</div>
+                        <h3 class="nova-product-name">舒腦寧膠囊</h3>
+                        <p class="nova-product-description">緩解焦慮與失眠，改善生活品質。</p>
+                        <a href="product-detail.html" class="nova-product-link">
+                            了解詳情
+                            <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="products.html" class="nova-btn-teal">查看全部產品</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="nova-section nova-section-light">
+        <div class="nova-container">
+            <div class="nova-grid-2">
+                <div class="nova-about-image">
+                    <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1200&q=85" alt="製藥團隊">
+                </div>
+                <div class="nova-about-content">
+                    <span class="nova-about-label">關於新星製藥</span>
+                    <h2 class="nova-about-title">二十年製藥專業<br>守護全家人健康</h2>
+                    <p class="nova-about-text">NovaPharma 新星製藥成立於2004年，總部位於台北，擁有符合國際標準的製藥工廠與研發中心。我們的使命是通過創新藥物研發，為患者提供更安全、更有效的治療選擇。</p>
+                    <p class="nova-about-text">多年來，我們與國內外知名醫學機構合作，完成多項臨床試驗，累計發表超過50篇SCI論文，擁有30多項專利技術。</p>
+                    <ul class="nova-about-list">
+                        <li>GMP認證製藥工廠</li>
+                        <li>專業研發團隊超過200人</li>
+                        <li>產品出口至30+國家</li>
+                        <li>通過FDA、EMA認證</li>
+                    </ul>
+                    <a href="about.html" class="nova-btn-teal">深入了解</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nova-section">
+        <div class="nova-container">
+            <div class="nova-section-header">
+                <span class="nova-section-label">專業團隊</span>
+                <h2 class="nova-section-title">核心研發團隊</h2>
+                <p class="nova-section-description">由國際頂尖科學家與經驗豐富的製藥專家組成，引領新藥研發創新。</p>
+            </div>
+            <div class="nova-team-grid">
+                <div class="nova-team-card">
+                    <div class="nova-team-avatars">
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=85" alt="陳建志醫師">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=85" alt="王小琪博士">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=85" alt="林志遠博士">
+                        </div>
+                    </div>
+                    <h3 class="nova-team-name">陳建志 醫師</h3>
+                    <p class="nova-team-role">研發長暨創辦人</p>
+                    <p class="nova-team-bio">前台大醫院副院長，美國哈佛醫學院博士，20年新藥研發經驗。</p>
+                </div>
+                <div class="nova-team-card">
+                    <div class="nova-team-avatars">
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=85" alt="林雅婷博士">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=85" alt="張家銘博士">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=85" alt="黃淑芬博士">
+                        </div>
+                    </div>
+                    <h3 class="nova-team-name">王小琪 博士</h3>
+                    <p class="nova-team-role">臨床試驗總監</p>
+                    <p class="nova-team-bio">英國倫敦大學臨床醫學博士，專精新藥臨床試驗設計與執行。</p>
+                </div>
+                <div class="nova-team-card">
+                    <div class="nova-team-avatars">
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=85" alt="李明軒博士">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&q=85" alt="陳思穎博士">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=85" alt="黃瑞麟博士">
+                        </div>
+                    </div>
+                    <h3 class="nova-team-name">林志遠 博士</h3>
+                    <p class="nova-team-role">藥理學主管</p>
+                    <p class="nova-team-bio">美國史丹佛大學藥理學博士，專精藥物作用機制研究與安全性評估。</p>
+                </div>
+                <div class="nova-team-card">
+                    <div class="nova-team-avatars">
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1598550874175-4d0ef436c909?w=400&q=85" alt="張雅琳博士">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=85" alt="劉建志博士">
+                        </div>
+                        <div class="nova-team-avatar">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=85" alt="許雅琪博士">
+                        </div>
+                    </div>
+                    <h3 class="nova-team-name">黃淑芬 博士</h3>
+                    <p class="nova-team-role">品質管制主管</p>
+                    <p class="nova-team-bio">德國慕尼黑工業大學製藥科學博士，確保每項產品符合最高品質標準。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nova-section nova-section-dark">
+        <div class="nova-container">
+            <div class="nova-section-header">
+                <span class="nova-section-label">最新消息</span>
+                <h2 class="nova-section-title">產業動態與消息</h2>
+                <p class="nova-section-description">掌握新星製藥最新消息與醫藥產業趨勢。</p>
+            </div>
+            <div class="nova-grid-3">
+                <div class="nova-publication-card">
+                    <div class="nova-publication-meta">
+                        <span class="nova-publication-date">2024.12.15</span>
+                        <span class="nova-publication-journal">新聞發布</span>
+                    </div>
+                    <h3 class="nova-publication-title">新星製藥榮獲國家磐石獎，表彰創新製藥貢獻</h3>
+                    <p class="nova-publication-authors">由經濟部主辦的「第33屆國家磐石獎」揭曉，新星製藥以卓越的研發實力與國際化表現獲頒殊榮。</p>
+                    <a href="news.html" class="nova-publication-link">
+                        閱讀更多
+                        <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                    </a>
+                </div>
+                <div class="nova-publication-card">
+                    <div class="nova-publication-meta">
+                        <span class="nova-publication-date">2024.11.28</span>
+                        <span class="nova-publication-journal">臨床試驗</span>
+                    </div>
+                    <h3 class="nova-publication-title">糖尿病新藥NV-002第三期臨床試驗成果發表</h3>
+                    <p class="nova-publication-authors">臨床試驗顯示NV-002可有效降低糖化血色素(HbA1c)達1.8%，安全性與耐受性表現優異。</p>
+                    <a href="news.html" class="nova-publication-link">
+                        閱讀更多
+                        <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                    </a>
+                </div>
+                <div class="nova-publication-card">
+                    <div class="nova-publication-meta">
+                        <span class="nova-publication-date">2024.11.10</span>
+                        <span class="nova-publication-journal">合作協議</span>
+                    </div>
+                    <h3 class="nova-publication-title">與日本第一三共製藥簽署策略合作備忘錄</h3>
+                    <p class="nova-publication-authors">雙方將在藥物研發、市場推廣及學術交流等方面展開深度合作，攜手開拓亞太醫藥市場。</p>
+                    <a href="news.html" class="nova-publication-link">
+                        閱讀更多
+                        <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nova-section">
+        <div class="nova-container">
+            <div class="nova-section-header">
+                <span class="nova-section-label">常見問題</span>
+                <h2 class="nova-section-title">您可能想知道的問題</h2>
+            </div>
+            <div class="nova-faq-list">
+                <div class="nova-faq-item active">
+                    <button class="nova-faq-question">
+                        新星製藥的產品在哪些國家有上市？
+                        <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                    </button>
+                    <div class="nova-faq-answer">
+                        <div class="nova-faq-answer-content">
+                            我們的產品已成功進入全球30多個國家和地區，包括美國、加拿大、英國、德國、法國、日本、韓國、澳洲及東南亞各國等主要醫藥市場。所有產品均符合當地藥政法規並取得相關認證。
+                        </div>
+                    </div>
+                </div>
+                <div class="nova-faq-item">
+                    <button class="nova-faq-question">
+                        如何成為新星製藥的經銷合作夥伴？
+                        <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                    </button>
+                    <div class="nova-faq-answer">
+                        <div class="nova-faq-answer-content">
+                            我們歡迎具有藥品經銷許可的優質合作夥伴加入。請透過聯絡表單或直接聯繫我們的業務團隊，我們將安排專人與您洽談合作細節，包括產品代理、區域經銷等合作模式。
+                        </div>
+                    </div>
+                </div>
+                <div class="nova-faq-item">
+                    <button class="nova-faq-question">
+                        新星製藥是否有提供臨床試驗服務？
+                        <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                    </button>
+                    <div class="nova-faq-answer">
+                        <div class="nova-faq-answer-content">
+                            是的，我們提供完整的臨床試驗服務，涵蓋第一期至第四期臨床試驗設計與執行、數據管理、統計分析、法規諮詢等。我們的臨床試驗團隊擁有豐富的國際合作經驗。
+                        </div>
+                    </div>
+                </div>
+                <div class="nova-faq-item">
+                    <button class="nova-faq-question">
+                        藥品的保存與使用應該注意什麼？
+                        <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+                    </button>
+                    <div class="nova-faq-answer">
+                        <div class="nova-faq-answer-content">
+                            請詳閱包裝上的保存說明，一般藥品應存放於乾燥陰涼處，避免陽光直射與高溫環境。所有藥品應置於兒童無法觸及之處。若有任何疑問，請諮詢您的醫師或藥師。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="nova-footer">
+        <div class="nova-container">
+            <div class="nova-footer-grid">
+                <div class="nova-footer-brand">
+                    <div class="nova-footer-logo">
+                        <div class="nova-footer-logo-icon">
+                            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/></svg>
+                        </div>
+                        <span class="nova-footer-logo-text">Nova<span>Pharma</span></span>
+                    </div>
+                    <p class="nova-footer-description">新星製藥致力於創新藥物研發，以科學為基礎，以患者為中心，守護全人類的健康生活。</p>
+                    <div class="nova-footer-social">
+                        <a href="#" class="nova-social-link" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M18 2h-3c-.69 0-1.23.35-1.59.88L12 7l-1.41-1.12C9.23 4.35 8.69 4 8 4H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h13c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-6 11H7v-5h5v5zm3-5H7V8h9v5z"/></svg></a>
+                        <a href="#" class="nova-social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M16 8c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2h-4zm-6 10H4v-6c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v6zm8-10h-4v4h4V8zm-4 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg></a>
+                        <a href="#" class="nova-social-link" aria-label="Twitter"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                        <a href="#" class="nova-social-link" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 9.5c-.3-1.1-1.3-2-2.4-2.1C18.9 7 12 7 12 7s-6.9 0-8.6.4c-1.1.1-2.1 1-2.4 2.1C.5 10.3 0 11.1 0 12s.5 1.7 1.5 2.5c.3 1.1 1.3 2 2.4 2.1C5.1 17 12 17 12 17s6.9 0 8.6-.4c1.1-.1 2.1-1 2.4-2.1.5-.8.5-1.7.5-2.5s-.5-1.7-1.5-2.5zM9.6 15.6V8.4l5.5 3.6-5.5 3.6z"/></svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="nova-footer-title">產品專區</h4>
+                    <ul class="nova-footer-links">
+                        <li><a href="products.html">處方藥物</a></li>
+                        <li><a href="products.html">學名藥品</a></li>
+                        <li><a href="products.html">保健食品</a></li>
+                        <li><a href="products.html">醫療器材</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="nova-footer-title">關於我們</h4>
+                    <ul class="nova-footer-links">
+                        <li><a href="about.html">公司簡介</a></li>
+                        <li><a href="team.html">團隊成員</a></li>
+                        <li><a href="research.html">研發創新</a></li>
+                        <li><a href="publications.html">研究成果</a></li>
+                        <li><a href="careers.html">人才招募</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="nova-footer-title">客戶服務</h4>
+                    <ul class="nova-footer-links">
+                        <li><a href="faq.html">常見問題</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
+                        <li><a href="#">經銷合作</a></li>
+                        <li><a href="#">醫療諮詢</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nova-footer-bottom">
+                <p class="nova-footer-copyright">© 2024 NovaPharma 新星製藥股份有限公司. All rights reserved.</p>
+                <div class="nova-footer-legal">
+                    <a href="#">隱私權政策</a>
+                    <a href="#">使用條款</a>
+                    <a href="#">Cookie設定</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

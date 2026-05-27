@@ -1,0 +1,43 @@
+{
+  "id": "template-006",
+  "name": "Kinetic Studio",
+  "version": "1.0.0",
+  "description": "創意工作室品牌網站，具備豐富滾動視差、Kinetic Typography 與動態層次感。Syne 字體搭配橙黃活力配色，適合創意設計公司、廣告代理與品牌顧問。",
+  "category": "創意工作室",
+  "industry": "品牌設計 / 廣告創意 / 創意顧問",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "services", "name": "服務項目", "file": "services.html" },
+    { "id": "service-detail", "name": "服務詳情", "file": "service-detail.html" },
+    { "id": "portfolio", "name": "作品集", "file": "portfolio.html" },
+    { "id": "reviews", "name": "客戶評價", "file": "reviews.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "booking", "name": "預約諮詢", "file": "booking.html" },
+    { "id": "process", "name": "服務流程", "file": "process.html" },
+    { "id": "blog", "name": "創意觀點", "file": "blog.html" },
+    { "id": "blog-detail", "name": "文章詳情", "file": "blog-detail.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" }
+  ],
+  "assets": {
+    "css": ["assets/css/style.css", "assets/css/responsive.css"],
+    "js": ["assets/js/main.js"],
+    "images": ["assets/img/"]
+  },
+  "colorScheme": {
+    "primary": "#FFF8F5",
+    "secondary": "#FF5C00",
+    "accent": "#FFB800",
+    "bgAlt": "#FFF0E8",
+    "text": "#3A3A3A",
+    "textLight": "#888888"
+  },
+  "fonts": {
+    "heading": "Syne",
+    "body": "DM Sans",
+    "headingFallback": "system-ui, sans-serif",
+    "bodyFallback": "system-ui, sans-serif"
+  },
+  "layout": "Parallax Scrolling + Layered Depth，視差分層、Kinetic Typography、水平滾動畫廊",
+  "uniqueSellingPoint": "多層次滾動視差、活力橙黃配色、前衛 Syne 字體，適合不甘平凡的創意品牌"
+}

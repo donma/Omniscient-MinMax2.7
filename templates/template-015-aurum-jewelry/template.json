@@ -1,0 +1,24 @@
+{
+  "id": "template-015",
+  "name": "Aurum Jewelry",
+  "version": "1.0.0",
+  "description": "奢華珠寶網站，Editorial Luxury 編輯風格。極致黑底配玫瑰金與象牙白，創造高貴珠寶雜誌質感。適合婚戒、珠寶精品與婚禮品牌。",
+  "category": "奢華珠寶",
+  "industry": "珠寶精品 / 婚戒 / 婚禮品牌",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "collections", "name": "collections", "file": "collections.html" },
+    { "id": "collection-detail", "name": "collection-detail", "file": "collection-detail.html" },
+    { "id": "engagement", "name": "求婚戒指", "file": "engagement.html" },
+    { "id": "wedding", "name": "婚禮珠寶", "file": "wedding.html" },
+    { "id": "bespoke", "name": "訂製服務", "file": "bespoke.html" },
+    { "id": "press", "name": "媒體報導", "file": "press.html" },
+    { "id": "team", "name": "專業團隊", "file": "team.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" },
+    { "id": "appointment", "name": "預約鑑賞", "file": "appointment.html" }
+  ],
+  "colorScheme": { "primary": "#0A0A0A", "rose": "#B76E79", "gold": "#D4AF37", "ivory": "#FAF9F6" },
+  "fonts": { "heading": "Cinzel", "body": "Montserrat" },
+  "layout": "Editorial Luxury 編輯風格，非對稱排版，極致黑背景，玫瑰金點綴"
+}

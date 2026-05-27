@@ -1,0 +1,24 @@
+{
+  "id": "template-013",
+  "name": "Brasserie 1888",
+  "version": "1.0.0",
+  "description": "精釀啤酒與手工餐酒網站，Split Image + Text 交替排版。深琥珀底配銅色金屬，營造精釀啤酒廠的質感氛圍。",
+  "category": "精釀啤酒",
+  "industry": "精釀啤酒 / 手工餐酒 / 酒吧餐廳",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "menu", "name": "酒單餐點", "file": "menu.html" },
+    { "id": "events", "name": "活動事件", "file": "events.html" },
+    { "id": "gallery", "name": "圖片集", "file": "gallery.html" },
+    { "id": "story", "name": "品牌故事", "file": "story.html" },
+    { "id": "reservation", "name": "線上訂位", "file": "reservation.html" },
+    { "id": "taproom", "name": "釀酒廠參觀", "file": "taproom.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" },
+    { "id": "careers", "name": "人才招募", "file": "careers.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" }
+  ],
+  "colorScheme": { "primary": "#2C1810", "copper": "#B87333", "cream": "#F5FDE8" },
+  "fonts": { "heading": "Playfair Display", "body": "Source Sans 3" },
+  "layout": "Split Image + Text 交替排版，深琥珀暖色系，精釀啤酒廠質感"
+}

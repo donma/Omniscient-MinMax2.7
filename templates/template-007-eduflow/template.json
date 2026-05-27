@@ -1,0 +1,43 @@
+{
+  "id": "template-007",
+  "name": "EduFlow",
+  "version": "1.0.0",
+  "description": "線上學習平台Metro Tiles風格網站，靛藍主色搭配翡翠綠點綴，現代Plus Jakarta Sans字體，適合線上課程平台、職業技能培訓與教育科技服務。",
+  "category": "線上學習",
+  "industry": "線上學習 / 教育科技 / 職業培訓",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "courses", "name": "課程總覽", "file": "courses.html" },
+    { "id": "course-detail", "name": "課程詳情", "file": "course-detail.html" },
+    { "id": "dashboard", "name": "學習儀表板", "file": "dashboard.html" },
+    { "id": "reviews", "name": "學員評價", "file": "reviews.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "pricing", "name": "方案與收費", "file": "pricing.html" },
+    { "id": "blog", "name": "學習專欄", "file": "blog.html" },
+    { "id": "blog-detail", "name": "文章詳情", "file": "blog-detail.html" },
+    { "id": "teacher", "name": "成為講師", "file": "teacher.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" }
+  ],
+  "assets": {
+    "css": ["assets/css/style.css", "assets/css/responsive.css"],
+    "js": ["assets/js/main.js"],
+    "images": ["assets/img/"]
+  },
+  "colorScheme": {
+    "primary": "#F8FAFC",
+    "secondary": "#4F46E5",
+    "accent": "#10B981",
+    "primaryLight": "#EEF2FF",
+    "text": "#1E293B",
+    "textLight": "#64748B"
+  },
+  "fonts": {
+    "heading": "Plus Jakarta Sans",
+    "body": "Inter",
+    "headingFallback": "system-ui, sans-serif",
+    "bodyFallback": "system-ui, sans-serif"
+  },
+  "layout": "Metro Tiles Dashboard，方塊化佈局、進度追蹤、左右導航結構",
+  "uniqueSellingPoint": "Windows 8風格方塊佈局、清晰的學習進度視覺化、現代教育科技美學"
+}

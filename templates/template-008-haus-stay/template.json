@@ -1,0 +1,42 @@
+{
+  "id": "template-008",
+  "name": "Haus Stay",
+  "version": "1.0.0",
+  "description": "精品民宿與設計旅店官網，瑞士極簡主義編排風格。大量留白、Instrument Serif 優雅襯線字體、暖白底搭配琥珀金點綴，營造低調奢華的住宿美學。",
+  "category": "精品民宿",
+  "industry": "精品民宿 / 設計旅店 / 度假別墅",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "rooms", "name": "房型介紹", "file": "rooms.html" },
+    { "id": "room-detail", "name": "房型詳情", "file": "room-detail.html" },
+    { "id": "gallery", "name": "空間攝影", "file": "gallery.html" },
+    { "id": "experience", "name": "特色體驗", "file": "experience.html" },
+    { "id": "location", "name": "位置與交通", "file": "location.html" },
+    { "id": "booking", "name": "線上預訂", "file": "booking.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "journal", "name": "生活日誌", "file": "journal.html" },
+    { "id": "journal-detail", "name": "文章詳情", "file": "journal-detail.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" }
+  ],
+  "assets": {
+    "css": ["assets/css/style.css", "assets/css/responsive.css"],
+    "js": ["assets/js/main.js"],
+    "images": ["assets/img/"]
+  },
+  "colorScheme": {
+    "primary": "#FAFAF9",
+    "secondary": "#18181B",
+    "accent": "#D97706",
+    "textLight": "#737373",
+    "border": "#E5E5E5"
+  },
+  "fonts": {
+    "heading": "Instrument Serif",
+    "body": "Inter",
+    "headingFallback": "Georgia, serif",
+    "bodyFallback": "system-ui, sans-serif"
+  },
+  "layout": "Swiss Minimalist 單欄編排，大量留白，精確字距與行距，編輯式排版",
+  "uniqueSellingPoint": "極致留白、Instrument Serif 優雅風格、暖白琥珀配色、低調奢華感"
+}

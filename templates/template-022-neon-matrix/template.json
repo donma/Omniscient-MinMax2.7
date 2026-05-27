@@ -1,0 +1,150 @@
+{
+  "template": {
+    "id": "022",
+    "name": "NEON MATRIX",
+    "description": "Cyberpunk gaming portal with neon aesthetics, featuring game store, esports section, community forums, and merchandise shop",
+    "category": "gaming-portal",
+    "version": "1.0.0",
+    "created_date": "2026-05-27",
+    "author": "NEON MATRIX Team",
+    "license": "All Rights Reserved",
+    "files": {
+      "html": [
+        "index.html",
+        "games.html",
+        "game-detail.html",
+        "news.html",
+        "news-detail.html",
+        "esports.html",
+        "community.html",
+        "merch.html",
+        "about.html",
+        "contact.html",
+        "faq.html",
+        "careers.html"
+      ],
+      "css": [
+        "assets/css/style.css"
+      ],
+      "javascript": [
+        "assets/js/main.js"
+      ],
+      "documentation": [
+        "prompt.md",
+        "tags.json",
+        "template.json",
+        "README.md",
+        "image-sources.md"
+      ]
+    },
+    "structure": {
+      "assets": {
+        "css": "style.css",
+        "js": "main.js"
+      },
+      "root": [
+        "index.html",
+        "games.html",
+        "game-detail.html",
+        "news.html",
+        "news-detail.html",
+        "esports.html",
+        "community.html",
+        "merch.html",
+        "about.html",
+        "contact.html",
+        "faq.html",
+        "careers.html"
+      ]
+    },
+    "content_summary": {
+      "chinese_content": true,
+      "chinese_percentage": 90,
+      "game_titles": [
+        "星際征途 2077",
+        "暗影突襲：重生",
+        "虛空紀元：覺醒",
+        "世紀對決：終極版",
+        "深淵領主",
+        "極速快感：未來",
+        "魔獸紀元：王者歸來",
+        "極地探險：冰封世界",
+        "虛空逃生"
+      ],
+      "esports_teams": [
+        "幻影騎士",
+        "暗夜獵手",
+        "雷霆戰隊",
+        "星際迷途"
+      ],
+      "streamers": [
+        "電競小狼",
+        "遊戲女神",
+        "職業選手阿賢",
+        "深夜遊戲俠"
+      ]
+    },
+    "technical_specs": {
+      "css_unique_classes": true,
+      "css_line_count": 600,
+      "js_framework": "vanilla",
+      "responsive": true,
+      "ie11_support": false,
+      "css_variables": true,
+      "css_grid": true,
+      "flexbox": true,
+      "css_animations": true,
+      "fontawesome_version": "6.4.0"
+    },
+    "pages_detail": {
+      "index": {
+        "title": "首頁 - NEON MATRIX",
+        "sections": ["hero", "featured-games", "platform-stats", "latest-news", "esports-teams"]
+      },
+      "games": {
+        "title": "遊戲庫 - NEON MATRIX",
+        "sections": ["filters", "game-grid", "pagination"]
+      },
+      "game-detail": {
+        "title": "遊戲詳情 - NEON MATRIX",
+        "sections": ["game-info", "screenshots", "system-requirements", "reviews"]
+      },
+      "news": {
+        "title": "新聞中心 - NEON MATRIX",
+        "sections": ["category-filters", "news-grid", "pagination"]
+      },
+      "news-detail": {
+        "title": "新聞詳情 - NEON MATRIX",
+        "sections": ["article-content", "related-news"]
+      },
+      "esports": {
+        "title": "電競專區 - NEON MATRIX",
+        "sections": ["teams-grid", "upcoming-events", "streamers"]
+      },
+      "community": {
+        "title": "玩家社群 - NEON MATRIX",
+        "sections": ["forum-posts", "popular-tags", "online-players"]
+      },
+      "merch": {
+        "title": "官方商城 - NEON MATRIX",
+        "sections": ["category-filters", "product-grid", "cart"]
+      },
+      "about": {
+        "title": "關於我們 - NEON MATRIX",
+        "sections": ["story", "values", "milestones"]
+      },
+      "contact": {
+        "title": "聯絡我們 - NEON MATRIX",
+        "sections": ["contact-info", "contact-form", "map"]
+      },
+      "faq": {
+        "title": "常見問題 - NEON MATRIX",
+        "sections": ["faq-categories", "faq-accordion"]
+      },
+      "careers": {
+        "title": "人才招募 - NEON MATRIX",
+        "sections": ["benefits", "job-listings", "application-form"]
+      }
+    }
+  }
+}

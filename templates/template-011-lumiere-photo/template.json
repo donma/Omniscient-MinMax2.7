@@ -1,0 +1,25 @@
+{
+  "id": "template-011",
+  "name": "LUMIÈRE Photo",
+  "version": "1.0.0",
+  "description": "婚禮攝影與精品相簿網站，以 Full-screen Gallery 與 Masonry Grid 呈現。奶油白底配啞光金，優雅的婚禮美學。",
+  "category": "婚禮攝影",
+  "industry": "婚禮攝影 / 婚紗攝影",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "portfolio", "name": "作品集", "file": "portfolio.html" },
+    { "id": "portfolio-detail", "name": "作品詳情", "file": "portfolio-detail.html" },
+    { "id": "pricing", "name": "方案價格", "file": "pricing.html" },
+    { "id": "testimonials", "name": "新人推薦", "file": "testimonials.html" },
+    { "id": "journal", "name": "部落格", "file": "journal.html" },
+    { "id": "journal-detail", "name": "文章詳情", "file": "journal-detail.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "service", "name": "服務項目", "file": "service.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" },
+    { "id": "booking", "name": "預約檔期", "file": "booking.html" }
+  ],
+  "colorScheme": { "primary": "#FAF8F5", "secondary": "#F5F0E8", "gold": "#C9A84C", "text": "#2A2A2A", "textLight": "#6B6560" },
+  "fonts": { "heading": "Cormorant Garamond", "body": "Jost" },
+  "layout": "Full-screen Gallery + Masonry Grid，婚禮美學，啞光金點綴"
+}

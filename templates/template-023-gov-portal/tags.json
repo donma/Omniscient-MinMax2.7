@@ -1,0 +1,33 @@
+{
+  "template_id": "023",
+  "name": "GovPortal",
+  "category": "government",
+  "tags": [
+    "政府",
+    "公共服務",
+    "市民服務",
+    "入口網站",
+    "公部門",
+    "政府機構",
+    "數位服務"
+  ],
+  "features": [
+    "雙面板Portal佈局",
+    "資訊卡片牆",
+    "公告系統",
+    "線上表單",
+    "市民入口",
+    "FAQ系統"
+  ],
+  "pages": 12,
+  "color_palette": {
+    "公务蓝": "#1565C0",
+    "资讯白": "#F5F5F5",
+    "系统灰": "#37474F",
+    "警示橙": "#FF6D00"
+  },
+  "fonts": {
+    "headings": "Noto Sans TC",
+    "body": "Source Sans Pro"
+  }
+}

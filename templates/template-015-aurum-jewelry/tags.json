@@ -1,0 +1,8 @@
+{
+  "id": "template-015",
+  "name": "Aurum Jewelry",
+  "category": "奢華珠寶",
+  "tags": ["珠寶", "奢華", "玫瑰金", "極致黑", "Cinzel", "Editorial", "婚戒", "珠寶精品", "高貴"],
+  "colorScheme": { "bg": "#0A0A0A", "surface": "#1C1C1E", "rose": "#B76E79", "gold": "#D4AF37", "ivory": "#FAF9F6", "text": "#FAF9F6", "textMuted": "#888888" },
+  "fonts": { "heading": "Cinzel", "body": "Montserrat" }
+}

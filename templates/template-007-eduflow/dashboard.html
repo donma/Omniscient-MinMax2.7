@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>學習進度 — EduFlow</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header"><div class="sidebar-logo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>EduFlow</div></div>
+      <nav class="sidebar-nav">
+        <div class="nav-section"><div class="nav-section-title">學習</div>
+          <a href="index.html" class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/></svg>我的儀表板</a>
+          <a href="courses.html" class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/></svg>探索課程</a>
+          <a href="dashboard.html" class="nav-item active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>學習進度</a>
+        </div>
+        <div class="nav-section"><div class="nav-section-title">關於</div>
+          <a href="about.html" class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>關於我們</a>
+          <a href="contact.html" class="nav-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/></svg>聯絡我們</a>
+        </div>
+      </nav>
+      <div class="sidebar-footer"><div class="user-card"><img class="user-avatar" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="User"><div><div class="user-name">王小明</div><div class="user-role">學習中</div></div></div></div>
+    </aside>
+    <main class="main">
+      <header class="header"><div class="header-left"><button class="nav-toggle" aria-label="選單"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/></svg></button><h1 class="header-title">學習進度</h1></div><div class="header-right"><div class="search-box"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/></svg><input type="text" placeholder="搜尋課程..."></div></div></header>
+      <div class="content">
+        <div class="page-hero fade-in"><span class="page-hero-label">Dashboard</span><h1 class="page-hero-title">您的學習軌跡</h1><p class="page-hero-sub">記錄您的每一個學習瞬間，見證自己的成長。</p></div>
+        <div class="stats-grid fade-in">
+          <div class="metro-tile"><div class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/></svg></div><div class="tile-number">12</div><div class="tile-label">已完成課程</div></div>
+          <div class="metro-tile"><div class="tile-icon accent"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="tile-number">48h</div><div class="tile-label">學習時數</div></div>
+          <div class="metro-tile"><div class="tile-icon warning"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg></div><div class="tile-number">5</div><div class="tile-label">進行中</div></div>
+          <div class="metro-tile accent"><div class="tile-number">14</div><div class="tile-label">獲得證書</div></div>
+        </div>
+        <section class="section fade-in">
+          <div class="section-header"><h2 class="section-title">進行中的課程</h2></div>
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div class="card" style="display: grid; grid-template-columns: 100px 1fr 200px; gap: 24px; align-items: center;">
+              <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=200&q=80" alt="" style="width: 100px; height: 70px; object-fit: cover; border-radius: 8px;">
+              <div><div style="font-size: 12px; color: var(--primary); font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;">設計</div><div style="font-family: var(--font-heading); font-size: 16px; font-weight: 600;">UI/UX 設計實戰</div></div>
+              <div><div class="progress-bar"><div class="progress-bar-fill" style="width: 68%;"></div></div><div style="font-size: 12px; color: var(--text-light); margin-top: 4px;">68% · 還剩 4 章</div></div>
+            </div>
+            <div class="card" style="display: grid; grid-template-columns: 100px 1fr 200px; gap: 24px; align-items: center;">
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&q=80" alt="" style="width: 100px; height: 70px; object-fit: cover; border-radius: 8px;">
+              <div><div style="font-size: 12px; color: var(--primary); font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase;">科技</div><div style="font-family: var(--font-heading); font-size: 16px; font-weight: 600;">Python 資料科學</div></div>
+              <div><div class="progress-bar"><div class="progress-bar-fill" style="width: 42%;"></div></div><div style="font-size: 12px; color: var(--text-light); margin-top: 4px;">42% · 還剩 8 章</div></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="footer"><div class="footer-top"><div><div class="footer-brand">EduFlow</div><p class="footer-desc">賦能每個人的學習旅程。</p></div><div class="footer-col"><h4>課程</h4><ul><li><a href="courses.html">全部課程</a></li></ul></div><div class="footer-col"><h4>資源</h4><ul><li><a href="faq.html">常見問題</a></li></ul></div><div class="footer-col"><h4>公司</h4><ul><li><a href="about.html">關於我們</a></li><li><a href="contact.html">聯絡我們</a></li></ul></div></div><div class="footer-bottom"><span class="footer-copy">© 2026 EduFlow. All rights reserved.</span></div></footer>
+    </main>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

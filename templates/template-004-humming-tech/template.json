@@ -1,0 +1,25 @@
+{
+  "id": "template-004",
+  "name": "Humming Tech 蜂鳥科技",
+  "version": "1.0.0",
+  "description": "科技商務網站的 Bento Grid 暗金美學。DM Sans 搭配暗金配色，融合簡約現代感與高級質感。適合科技公司、商務服務與數位產品網站。",
+  "category": "科技",
+  "industry": "科技 / 商務服務",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "services", "name": "服務項目", "file": "services.html" },
+    { "id": "service-detail", "name": "服務詳情", "file": "service-detail.html" },
+    { "id": "portfolio", "name": "作品案例", "file": "portfolio.html" },
+    { "id": "reviews", "name": "客戶評價", "file": "reviews.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "booking", "name": "預約諮詢", "file": "booking.html" },
+    { "id": "process", "name": "流程說明", "file": "process.html" },
+    { "id": "blog", "name": "部落格", "file": "blog.html" },
+    { "id": "blog-detail", "name": "文章詳情", "file": "blog-detail.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" }
+  ],
+  "colorScheme": { "primary": "#0c0c0c", "gold": "#d4a843", "surface": "#1a1a1a", "text": "#ffffff", "muted": "#888888" },
+  "fonts": { "heading": "DM Sans", "body": "Plus Jakarta Sans" },
+  "layout": "Bento Grid 暗金美學，大數字展示，卡片式交錯排版"
+}

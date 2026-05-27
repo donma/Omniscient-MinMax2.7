@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>線上訂餐 — Verde Leaf</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">🌿 Verde Leaf</a>
+    <div class="nav-links">
+      <a href="about.html">關於我們</a>
+      <a href="menu.html">美味菜單</a>
+      <a href="gallery.html">圖片集</a>
+      <a href="journal.html">綠色生活</a>
+      <a href="faq.html">常見問題</a>
+      <a href="contact.html">聯絡我們</a>
+    </div>
+    <button class="nav-toggle" aria-label="選單">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M3 12h18M3 6h18M3 18h18"/>
+      </svg>
+    </button>
+  </nav>
+
+  <div class="nav-mobile">
+    <a href="about.html">關於我們</a>
+    <a href="menu.html">美味菜單</a>
+    <a href="gallery.html">圖片集</a>
+    <a href="journal.html">綠色生活</a>
+    <a href="faq.html">常見問題</a>
+    <a href="contact.html">聯絡我們</a>
+  </div>
+
+  <section class="page-hero">
+    <p class="page-hero-label">Online Order</p>
+    <h1 class="page-hero-title">線上訂餐</h1>
+    <p class="page-hero-sub">選擇您喜歡的餐點，我們會在 30 分鐘內為您準備完成。</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="gap: 80px;">
+        <div class="fade-in">
+          <h2 class="section-title" style="text-align: left; font-size: 28px; margin-bottom: 32px;">選擇外送或內用</h2>
+
+          <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px;">
+            <label style="display: flex; align-items: center; gap: 16px; padding: 20px; border: 2px solid var(--border); border-radius: var(--radius-sm); cursor: pointer; transition: border-color 0.3s;">
+              <input type="radio" name="order-type" value="delivery" checked style="accent-color: var(--primary); width: 20px; height: 20px;">
+              <div>
+                <p style="font-weight: 500; margin-bottom: 4px;">外送到府</p>
+                <p style="font-size: 13px; color: var(--text-light);">NT$30 起，滿 NT$500 免運</p>
+              </div>
+            </label>
+            <label style="display: flex; align-items: center; gap: 16px; padding: 20px; border: 2px solid var(--border); border-radius: var(--radius-sm); cursor: pointer; transition: border-color 0.3s;">
+              <input type="radio" name="order-type" value="pickup" style="accent-color: var(--primary); width: 20px; height: 20px;">
+              <div>
+                <p style="font-weight: 500; margin-bottom: 4px;">門市自取</p>
+                <p style="font-size: 13px; color: var(--text-light);">免運費，約 20 分鐘備好</p>
+              </div>
+            </label>
+          </div>
+
+          <h2 class="section-title" style="text-align: left; font-size: 28px; margin-bottom: 32px;">選擇餐點</h2>
+
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--border);">
+              <div>
+                <p style="font-weight: 500; margin-bottom: 4px;">彩虹藜麥碗</p>
+                <p style="font-size: 13px; color: var(--text-light);">NT$320</p>
+              </div>
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <button style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: none; cursor: pointer; font-size: 16px;">−</button>
+                <span>1</span>
+                <button style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: none; cursor: pointer; font-size: 16px;">+</button>
+              </div>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--border);">
+              <div>
+                <p style="font-weight: 500; margin-bottom: 4px;">伯爵茶燕麥碗</p>
+                <p style="font-size: 13px; color: var(--text-light);">NT$180</p>
+              </div>
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <button style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: none; cursor: pointer; font-size: 16px;">−</button>
+                <span>0</span>
+                <button style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: none; cursor: pointer; font-size: 16px;">+</button>
+              </div>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--border);">
+              <div>
+                <p style="font-weight: 500; margin-bottom: 4px;">熱帶綠果昔</p>
+                <p style="font-size: 13px; color: var(--text-light);">NT$140</p>
+              </div>
+              <div style="display: flex; align-items: center; gap: 12px;">
+                <button style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: none; cursor: pointer; font-size: 16px;">−</button>
+                <span>2</span>
+                <button style="width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: none; cursor: pointer; font-size: 16px;">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-in">
+          <div style="background: var(--white); border-radius: var(--radius); padding: 40px; box-shadow: 0 4px 24px rgba(0,0,0,0.06);">
+            <h2 class="section-title" style="text-align: left; font-size: 24px; margin-bottom: 24px;">訂單摘要</h2>
+
+            <div style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border);">
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--text-light);">彩虹藜麥碗 × 1</span>
+                <span>NT$320</span>
+              </div>
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--text-light);">熱帶綠果昔 × 2</span>
+                <span>NT$280</span>
+              </div>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 32px;">
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--text-light);">小計</span>
+                <span>NT$600</span>
+              </div>
+              <div style="display: flex; justify-content: space-between;">
+                <span style="color: var(--text-light);">外送費</span>
+                <span>NT$30</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; font-size: 20px; font-weight: 500; padding-top: 12px; border-top: 1px solid var(--border);">
+                <span>總計</span>
+                <span style="color: var(--primary);">NT$630</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">取餐方式</label>
+              <select class="form-select">
+                <option>外送到府</option>
+                <option>門市自取</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">聯絡電話</label>
+              <input type="tel" class="form-input" placeholder="0912-345-678">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">送餐地址</label>
+              <input type="text" class="form-input" placeholder="台北市大安區忠孝東路四段 101 號">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">備註</label>
+              <textarea class="form-textarea" placeholder="有任何飲食禁忌或特殊需求請告訴我們"></textarea>
+            </div>
+
+            <button class="btn btn-primary" style="width: 100%; justify-content: center;">確認訂單</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">🌿 Verde Leaf</div>
+        <p class="footer-desc">每一口，都是對自然的致敬。</p>
+      </div>
+      <div class="footer-col">
+        <h4>快速連結</h4>
+        <ul>
+          <li><a href="about.html">關於我們</a></li>
+          <li><a href="menu.html">美味菜單</a></li>
+          <li><a href="order.html">線上訂餐</a></li>
+          <li><a href="contact.html">聯絡我們</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>更多資訊</h4>
+        <ul>
+          <li><a href="faq.html">常見問題</a></li>
+          <li><a href="careers.html">人才招募</a></li>
+          <li><a href="journal.html">綠色生活</a></li>
+          <li><a href="location.html">位置與外送</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2024 Verde Leaf. 用心烹調每一刻。</p>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

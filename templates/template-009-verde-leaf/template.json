@@ -1,0 +1,43 @@
+{
+  "id": "template-009",
+  "name": "Verde Leaf",
+  "version": "1.0.0",
+  "description": "健康蔬食與植物性餐廳網站，有機曲線與流動感的設計語言。薄荷綠底搭配森林綠與活力橙，自然純淨的視覺體驗。適合倡導健康生活與永續理念的餐飲品牌。",
+  "category": "健康蔬食",
+  "industry": "健康蔬食 / 植物性餐廳 / 咖啡輕食",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "menu", "name": "菜單", "file": "menu.html" },
+    { "id": "menu-detail", "name": "菜品詳情", "file": "menu-detail.html" },
+    { "id": "order", "name": "線上訂餐", "file": "order.html" },
+    { "id": "gallery", "name": "圖片集", "file": "gallery.html" },
+    { "id": "journal", "name": "綠色生活", "file": "journal.html" },
+    { "id": "journal-detail", "name": "文章詳情", "file": "journal-detail.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "location", "name": "位置與外送", "file": "location.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" },
+    { "id": "careers", "name": "人才招募", "file": "careers.html" }
+  ],
+  "assets": {
+    "css": ["assets/css/style.css", "assets/css/responsive.css"],
+    "js": ["assets/js/main.js"],
+    "images": ["assets/img/"]
+  },
+  "colorScheme": {
+    "primary": "#F0FDF4",
+    "secondary": "#15803D",
+    "accent": "#F97316",
+    "bgWarm": "#FEFCE8",
+    "text": "#1C1917",
+    "textLight": "#78716C"
+  },
+  "fonts": {
+    "heading": "Fraunces",
+    "body": "Work Sans",
+    "headingFallback": "Georgia, serif",
+    "bodyFallback": "system-ui, sans-serif"
+  },
+  "layout": "Organic Flow，有機曲線設計、波浪分隔線、流動卡片佈局、柔和漸層",
+  "uniqueSellingPoint": "自然有機的視覺語言、波浪曲線過渡、薄荷綠與活力橙配色，傳遞純淨健康的品牌理念"
+}

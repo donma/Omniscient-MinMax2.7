@@ -1,0 +1,55 @@
+{
+  "template": {
+    "id": "023",
+    "name": "GovPortal 政府入口網站",
+    "description": "政府機構入口網站，以雙面板 Portal + 資訊卡片牆呈現清晰、便利的數位公共服務入口。",
+    "category": "government-portal",
+    "version": "1.0.0",
+    "created_date": "2026-05-27",
+    "author": "GovPortal Team",
+    "license": "All Rights Reserved",
+    "files": {
+      "html": [
+        "index.html", "announcements.html", "announcement-detail.html",
+        "services.html", "forms.html", "news.html", "news-detail.html",
+        "about.html", "portal.html", "faq.html", "links.html", "contact.html"
+      ],
+      "css": ["assets/css/style.css"],
+      "javascript": ["assets/js/main.js"],
+      "documentation": ["prompt.md", "tags.json", "template.json", "README.md", "image-sources.md"]
+    },
+    "structure": {
+      "assets": { "css": "style.css", "js": "main.js" },
+      "root": ["index.html","announcements.html","announcement-detail.html","services.html","forms.html","news.html","news-detail.html","about.html","portal.html","faq.html","links.html","contact.html"]
+    },
+    "content_summary": {
+      "chinese_content": true,
+      "chinese_percentage": 98,
+      "government_level": "地方政府"
+    },
+    "technical_specs": {
+      "css_unique_classes": true,
+      "layout_portal": true,
+      "js_framework": "vanilla",
+      "responsive": true,
+      "css_variables": true,
+      "css_grid": true,
+      "flexbox": true,
+      "fontawesome_version": "6.5.1"
+    },
+    "pages_detail": {
+      "index": { "title": "市民服務入口網站", "sections": ["portal-dashboard", "service-cards", "announcements"] },
+      "announcements": { "title": "公告資訊", "sections": ["announcement-list", "filters"] },
+      "announcement-detail": { "title": "公告詳情", "sections": ["announcement-content", "related"] },
+      "services": { "title": "服務項目", "sections": ["service-grid", "categories"] },
+      "forms": { "title": "線上表單", "sections": ["form-categories", "form-list"] },
+      "news": { "title": "新聞資訊", "sections": ["news-grid", "filters"] },
+      "news-detail": { "title": "新聞詳情", "sections": ["article", "related"] },
+      "about": { "title": "關於我們", "sections": ["organization", "history"] },
+      "portal": { "title": "市民入口", "sections": ["login", "user-dashboard"] },
+      "faq": { "title": "常見問題", "sections": ["faq-categories", "faq-accordion"] },
+      "links": { "title": "相關連結", "sections": ["link-categories"] },
+      "contact": { "title": "聯絡我們", "sections": ["contact-info", "contact-form"] }
+    }
+  }
+}

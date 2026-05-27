@@ -1,0 +1,21 @@
+{
+  "id": "template-009",
+  "name": "Verde Leaf",
+  "category": "健康蔬食",
+  "tags": ["健康蔬食", "植物性", "有機", "波浪曲線", "自然流動", "Fraunces字體", "薄荷綠", "永續"],
+  "colorScheme": {
+    "bg": "#F0FDF4",
+    "bgWarm": "#FEFCE8",
+    "bgCoral": "#FFF1F0",
+    "primary": "#15803D",
+    "primaryDark": "#166534",
+    "accent": "#F97316",
+    "text": "#1C1917",
+    "textLight": "#78716C",
+    "white": "#FFFFFF"
+  },
+  "fonts": {
+    "heading": "Fraunces",
+    "body": "Work Sans"
+  }
+}

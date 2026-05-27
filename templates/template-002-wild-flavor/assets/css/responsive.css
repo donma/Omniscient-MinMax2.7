@@ -1,0 +1,28 @@
+@media(max-width:1024px){
+  .hero-magazine{grid-template-columns:1fr;height:auto}
+  .hero-image-col::after{background:linear-gradient(to bottom,transparent 50%,var(--bg) 100%)}
+  .section-intro{grid-template-columns:1fr}
+  .menu-asymmetric{grid-template-columns:1fr}
+  .story-editorial,.location-grid,.blog-editorial,.faq-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:768px){
+  .container{padding:0 24px}
+  .header-inner,.hero-content-col{padding:0 24px}
+  .main-nav,.header-cta{display:none !important}
+  .hamburger{display:flex !important}
+  .section{padding:60px 0}
+  .chefs-grid{grid-template-columns:repeat(2,1fr)}
+  .process-grid{grid-template-columns:repeat(2,1fr)}
+  .process-grid::before{display:none}
+  .form-row{grid-template-columns:1fr}
+  .res-form{padding:24px}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-bottom{flex-direction:column;gap:12px;text-align:center}
+}
+@media(max-width:480px){
+  .hero-title{font-size:1.9rem}
+  .chefs-grid,.process-grid{grid-template-columns:1fr}
+  .section-title{font-size:1.5rem}
+  .container{padding:0 16px}
+}

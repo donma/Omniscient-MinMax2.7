@@ -1,0 +1,42 @@
+{
+  "id": "template-010",
+  "name": "Axiom Space",
+  "version": "1.0.0",
+  "description": "室內設計與建築空間網站，Split Screen 雙欄雙面設計。深灰黑銀配色，動與靜、圖與文的對話，適合室內設計、建築與空間品牌。",
+  "category": "室內設計",
+  "industry": "室內設計 / 建築 / 空間品牌",
+  "pages": [
+    { "id": "index", "name": "首頁", "file": "index.html" },
+    { "id": "about", "name": "關於我們", "file": "about.html" },
+    { "id": "projects", "name": "專案作品", "file": "projects.html" },
+    { "id": "project-detail", "name": "專案詳情", "file": "project-detail.html" },
+    { "id": "process", "name": "設計流程", "file": "process.html" },
+    { "id": "studio", "name": "團隊成員", "file": "studio.html" },
+    { "id": "awards", "name": "獲獎肯定", "file": "awards.html" },
+    { "id": "press", "name": "媒體報導", "file": "press.html" },
+    { "id": "services", "name": "服務項目", "file": "services.html" },
+    { "id": "faq", "name": "常見問題", "file": "faq.html" },
+    { "id": "contact", "name": "聯絡我們", "file": "contact.html" },
+    { "id": "careers", "name": "人才招募", "file": "careers.html" }
+  ],
+  "assets": {
+    "css": ["assets/css/style.css", "assets/css/responsive.css"],
+    "js": ["assets/js/main.js"],
+    "images": ["assets/img/"]
+  },
+  "colorScheme": {
+    "primary": "#18181B",
+    "secondary": "#27272A",
+    "accent": "#d4d4d8",
+    "muted": "#71717A",
+    "white": "#F4F4F5"
+  },
+  "fonts": {
+    "heading": "Syne",
+    "body": "Space Grotesk",
+    "headingFallback": "system-ui, sans-serif",
+    "bodyFallback": "system-ui, sans-serif"
+  },
+  "layout": "Split Screen 雙欄雙面，左側固定視差圖片，右側滑動內容，銀河金屬質感",
+  "uniqueSellingPoint": "動與靜的對話式 Split Screen 設計、銀河金屬配色、Syne 幾何粗體，創造極致精準的建築美學網站"
+}

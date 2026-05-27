@@ -1,0 +1,16 @@
+{
+  "id": "template-002",
+  "name": "野味餐酒",
+  "industryCategory": "餐飲甜點",
+  "industry": ["Fine Dining", "餐酒館", "當代料理", "預約制餐廳"],
+  "colors": ["大地色", "淺色系", "棕色系", "自然綠"],
+  "backgroundMode": "light",
+  "features": ["線上預約", "菜單展示", "食物攝影", "部落格", "Google Map", "Line 連結", "強 SEO", "圖片豐富"],
+  "layout": ["Magazine 雜誌式首頁", "Editorial 文字導向", "Asymmetric Grid", "故事敘事型"],
+  "pages": 12,
+  "hasZip": false,
+  "hasPrompt": true,
+  "hasPreview": true,
+  "imageRich": true,
+  "status": "candidate"
+}

@@ -1,0 +1,1363 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --neon-green: #00FF9F;
+    --neon-pink: #FF0080;
+    --neon-purple: #9D00FF;
+    --deep-black: #0D0D0D;
+    --dark-gray: #1A1A1A;
+    --medium-gray: #2A2A2A;
+    --light-gray: #3A3A3A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: var(--deep-black);
+    color: #ffffff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ========================================
+   HEADER STYLES
+   ======================================== */
+.header-neon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(13, 13, 13, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--neon-green);
+    box-shadow: 0 0 20px rgba(0, 255, 159, 0.1);
+}
+
+.header-container-neon {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--neon-green);
+    text-shadow: 
+        0 0 10px var(--neon-green),
+        0 0 20px var(--neon-green),
+        0 0 40px var(--neon-green);
+    letter-spacing: 2px;
+}
+
+.logo-neon span {
+    color: var(--neon-pink);
+    text-shadow: 
+        0 0 10px var(--neon-pink),
+        0 0 20px var(--neon-pink);
+}
+
+.nav-neon {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.5rem 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.nav-link-neon::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: var(--neon-green);
+    box-shadow: 0 0 10px var(--neon-green);
+    transition: width 0.3s ease;
+}
+
+.nav-link-neon:hover {
+    color: var(--neon-green);
+    text-shadow: 0 0 10px var(--neon-green);
+}
+
+.nav-link-neon:hover::after {
+    width: 100%;
+}
+
+.nav-toggle-neon {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.nav-toggle-line-neon {
+    width: 30px;
+    height: 3px;
+    background: var(--neon-green);
+    box-shadow: 0 0 5px var(--neon-green);
+    transition: all 0.3s ease;
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+.hero-neon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: linear-gradient(135deg, var(--deep-black) 0%, var(--dark-gray) 50%, var(--deep-black) 100%);
+    overflow: hidden;
+    padding-top: 80px;
+}
+
+.hero-bg-grid-neon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 255, 159, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 159, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: grid-move-neon 20s linear infinite;
+}
+
+@keyframes grid-move-neon {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(50px, 50px); }
+}
+
+.hero-particles-neon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.particle-neon {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--neon-green);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--neon-green);
+    animation: float-particle-neon 15s infinite;
+    opacity: 0.6;
+}
+
+.particle-neon:nth-child(2) {
+    left: 20%;
+    animation-delay: 2s;
+    background: var(--neon-pink);
+    box-shadow: 0 0 10px var(--neon-pink);
+}
+
+.particle-neon:nth-child(3) {
+    left: 40%;
+    animation-delay: 4s;
+}
+
+.particle-neon:nth-child(4) {
+    left: 60%;
+    animation-delay: 6s;
+    background: var(--neon-purple);
+    box-shadow: 0 0 10px var(--neon-purple);
+}
+
+.particle-neon:nth-child(5) {
+    left: 80%;
+    animation-delay: 8s;
+}
+
+@keyframes float-particle-neon {
+    0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+    10% { opacity: 0.6; }
+    90% { opacity: 0.6; }
+    100% { transform: translateY(-100vh) rotate(720deg); opacity: 0; }
+}
+
+.hero-content-neon {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    max-width: 900px;
+    padding: 2rem;
+}
+
+.hero-title-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    color: var(--neon-green);
+    text-shadow: 
+        0 0 20px var(--neon-green),
+        0 0 40px var(--neon-green),
+        0 0 80px var(--neon-green);
+    letter-spacing: 8px;
+    margin-bottom: 1rem;
+    animation: title-glow-neon 2s ease-in-out infinite alternate;
+}
+
+@keyframes title-glow-neon {
+    from {
+        text-shadow: 
+            0 0 20px var(--neon-green),
+            0 0 40px var(--neon-green),
+            0 0 80px var(--neon-green);
+    }
+    to {
+        text-shadow: 
+            0 0 30px var(--neon-green),
+            0 0 60px var(--neon-green),
+            0 0 100px var(--neon-green);
+    }
+}
+
+.hero-subtitle-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #cccccc;
+    margin-bottom: 3rem;
+    letter-spacing: 4px;
+}
+
+.hero-buttons-neon {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ========================================
+   GLITCH TEXT EFFECT
+   ======================================== */
+.glitch-text-neon {
+    position: relative;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.glitch-text-neon:hover {
+    animation: glitch-effect-neon 0.3s infinite;
+}
+
+@keyframes glitch-effect-neon {
+    0% {
+        text-shadow: 
+            0 0 10px var(--neon-green),
+            2px 2px 0 var(--neon-pink),
+            -2px -2px 0 var(--neon-purple);
+    }
+    25% {
+        text-shadow: 
+            0 0 10px var(--neon-green),
+            -2px 2px 0 var(--neon-pink),
+            2px -2px 0 var(--neon-purple);
+    }
+    50% {
+        text-shadow: 
+            0 0 10px var(--neon-green),
+            2px -2px 0 var(--neon-pink),
+            -2px 2px 0 var(--neon-purple);
+    }
+    75% {
+        text-shadow: 
+            0 0 10px var(--neon-green),
+            -2px -2px 0 var(--neon-pink),
+            2px 2px 0 var(--neon-purple);
+    }
+    100% {
+        text-shadow: 
+            0 0 10px var(--neon-green),
+            0 0 20px var(--neon-green);
+    }
+}
+
+/* ========================================
+   BUTTON STYLES
+   ======================================== */
+.btn-neon-green {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+    border: 2px solid var(--neon-green);
+    background: transparent;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 
+        0 0 10px rgba(0, 255, 159, 0.3),
+        inset 0 0 10px rgba(0, 255, 159, 0.1);
+}
+
+.btn-neon-green::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--neon-green), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn-neon-green:hover {
+    background: var(--neon-green);
+    color: var(--deep-black);
+    box-shadow: 
+        0 0 30px var(--neon-green),
+        0 0 60px var(--neon-green);
+    transform: translateY(-2px);
+}
+
+.btn-neon-green:hover::before {
+    left: 100%;
+}
+
+.btn-neon-pink {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2.5rem;
+    border: 2px solid var(--neon-pink);
+    background: transparent;
+    color: var(--neon-pink);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 128, 0.3),
+        inset 0 0 10px rgba(255, 0, 128, 0.1);
+}
+
+.btn-neon-pink::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--neon-pink), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn-neon-pink:hover {
+    background: var(--neon-pink);
+    color: var(--deep-black);
+    box-shadow: 
+        0 0 30px var(--neon-pink),
+        0 0 60px var(--neon-pink);
+    transform: translateY(-2px);
+}
+
+.btn-neon-pink:hover::before {
+    left: 100%;
+}
+
+/* ========================================
+   SECTION STYLES
+   ======================================== */
+.section-dark-neon {
+    background: var(--deep-black);
+    padding: 6rem 2rem;
+}
+
+.section-alt-dark-neon {
+    background: var(--dark-gray);
+    padding: 6rem 2rem;
+}
+
+.section-container-neon {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.section-header-neon {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--neon-green);
+    text-shadow: 0 0 20px rgba(0, 255, 159, 0.5);
+    margin-bottom: 1rem;
+    letter-spacing: 4px;
+}
+
+.section-subtitle-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    color: #888888;
+    letter-spacing: 2px;
+}
+
+.glow-line-neon {
+    width: 100%;
+    height: 1px;
+    background: var(--neon-green);
+    box-shadow: 
+        0 0 10px var(--neon-green),
+        0 0 20px var(--neon-green),
+        0 0 40px var(--neon-green);
+    margin: 2rem 0;
+}
+
+/* ========================================
+   GAME GRID STYLES
+   ======================================== */
+.game-grid-neon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.game-card-neon {
+    background: var(--dark-gray);
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.game-card-neon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--neon-green);
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+    box-shadow: 0 0 20px var(--neon-green);
+}
+
+.game-card-neon:hover {
+    border-color: var(--neon-green);
+    box-shadow: 
+        0 0 20px rgba(0, 255, 159, 0.3),
+        inset 0 0 30px rgba(0, 255, 159, 0.05);
+    transform: translateY(-5px);
+}
+
+.game-card-neon:hover::before {
+    transform: scaleX(1);
+}
+
+.game-card-image-neon {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.game-card-content-neon {
+    padding: 1.5rem;
+}
+
+.game-card-title-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.game-card-platform-neon {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.platform-tag-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+    border: 1px solid var(--neon-purple);
+    color: var(--neon-purple);
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.game-card-price-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    color: var(--neon-green);
+    text-shadow: 0 0 10px rgba(0, 255, 159, 0.5);
+}
+
+/* ========================================
+   STAT BAR STYLES
+   ======================================== */
+.stat-bar-container-neon {
+    margin: 2rem 0;
+}
+
+.stat-bar-label-neon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.stat-bar-track-neon {
+    height: 8px;
+    background: var(--medium-gray);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stat-bar-fill-neon {
+    height: 100%;
+    background: linear-gradient(90deg, var(--neon-green), var(--neon-pink));
+    border-radius: 4px;
+    position: relative;
+    animation: stat-fill-neon 2s ease-out forwards;
+    box-shadow: 0 0 10px var(--neon-green);
+}
+
+@keyframes stat-fill-neon {
+    from { width: 0; }
+    to { width: var(--stat-width, 80%); }
+}
+
+.stat-bar-value-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    color: var(--neon-green);
+}
+
+/* ========================================
+   NEWS CARD STYLES
+   ======================================== */
+.news-grid-neon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.news-card-neon {
+    background: var(--dark-gray);
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.news-card-neon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--neon-green);
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+}
+
+.news-card-neon:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(0, 255, 159, 0.2);
+}
+
+.news-card-neon:hover::before {
+    transform: scaleY(1);
+}
+
+.news-card-date-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 0.85rem;
+    color: var(--neon-pink);
+    text-shadow: 0 0 5px rgba(255, 0, 128, 0.5);
+    margin-bottom: 0.75rem;
+}
+
+.news-card-title-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.news-card-excerpt-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: #888888;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.news-card-link-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.news-card-link-neon:hover {
+    text-shadow: 0 0 10px var(--neon-green);
+}
+
+/* ========================================
+   ESPORTS SECTION
+   ======================================== */
+.esports-section-neon {
+    background: var(--deep-black);
+    padding: 6rem 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.esports-bg-neon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(157, 0, 255, 0.1) 0%, transparent 70%);
+}
+
+.team-grid-neon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.team-card-neon {
+    background: var(--dark-gray);
+    border: 2px solid var(--medium-gray);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.team-card-neon:hover {
+    border-color: var(--neon-purple);
+    box-shadow: 
+        0 0 30px rgba(157, 0, 255, 0.4),
+        inset 0 0 20px rgba(157, 0, 255, 0.1);
+    transform: translateY(-5px);
+}
+
+.team-logo-ring-neon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--neon-purple);
+    box-shadow: 
+        0 0 20px var(--neon-purple),
+        inset 0 0 20px rgba(157, 0, 255, 0.2);
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--medium-gray);
+    overflow: hidden;
+}
+
+.team-logo-ring-neon img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.team-name-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.team-rank-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: var(--neon-purple);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ========================================
+   GRID LAYOUTS
+   ======================================== */
+.grid-3-neon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.grid-4-neon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+/* ========================================
+   COMMUNITY SECTION
+   ======================================== */
+.community-section-neon {
+    background: var(--dark-gray);
+    padding: 6rem 2rem;
+}
+
+.streamer-card-neon {
+    background: var(--deep-black);
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.streamer-card-neon:hover {
+    border-color: var(--neon-pink);
+    box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+}
+
+.streamer-image-neon {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.streamer-content-neon {
+    padding: 1.5rem;
+}
+
+.streamer-name-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    color: var(--neon-pink);
+    margin-bottom: 0.5rem;
+}
+
+.streamer-viewers-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: #888888;
+}
+
+/* ========================================
+   MERCH SECTION
+   ======================================== */
+.merch-grid-neon {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.merch-card-neon {
+    background: var(--dark-gray);
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.merch-card-neon:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(0, 255, 159, 0.3);
+    transform: translateY(-5px);
+}
+
+.merch-image-neon {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.merch-content-neon {
+    padding: 1.5rem;
+}
+
+.merch-title-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.merch-price-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    color: var(--neon-green);
+}
+
+/* ========================================
+   ABOUT/CONTACT/FORM STYLES
+   ======================================== */
+.about-content-neon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-image-neon {
+    border-radius: 8px;
+    border: 2px solid var(--neon-green);
+    box-shadow: 0 0 30px rgba(0, 255, 159, 0.2);
+}
+
+.about-text-neon h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: var(--neon-green);
+    margin-bottom: 1.5rem;
+}
+
+.about-text-neon p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1rem;
+    color: #cccccc;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+.contact-grid-neon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.contact-info-neon h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    color: var(--neon-green);
+    margin-bottom: 2rem;
+}
+
+.contact-item-neon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+
+.contact-icon-neon {
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--neon-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--neon-green);
+    font-size: 1.2rem;
+}
+
+.form-neon {
+    background: var(--dark-gray);
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid var(--medium-gray);
+}
+
+.form-group-neon {
+    margin-bottom: 1.5rem;
+}
+
+.form-label-neon {
+    display: block;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: var(--neon-green);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-input-neon,
+.form-textarea-neon,
+.form-select-neon {
+    width: 100%;
+    padding: 1rem;
+    background: var(--deep-black);
+    border: 1px solid var(--medium-gray);
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-input-neon:focus,
+.form-textarea-neon:focus,
+.form-select-neon:focus {
+    outline: none;
+    border-color: var(--neon-green);
+    box-shadow: 0 0 10px rgba(0, 255, 159, 0.3);
+}
+
+.form-textarea-neon {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* ========================================
+   FAQ STYLES
+   ======================================== */
+.faq-item-neon {
+    background: var(--dark-gray);
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-item-neon:hover {
+    border-color: var(--neon-green);
+}
+
+.faq-question-neon {
+    padding: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question-neon:hover {
+    color: var(--neon-green);
+}
+
+.faq-answer-neon {
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: #888888;
+    line-height: 1.8;
+}
+
+.faq-item-active-neon .faq-answer-neon {
+    padding: 0 1.5rem 1.5rem;
+    max-height: 500px;
+}
+
+/* ========================================
+   CAREERS STYLES
+   ======================================== */
+.job-card-neon {
+    background: var(--dark-gray);
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+}
+
+.job-card-neon:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(0, 255, 159, 0.2);
+}
+
+.job-title-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.job-meta-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: #888888;
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.job-type-neon {
+    color: var(--neon-pink);
+}
+
+.job-desc-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+/* ========================================
+   FOOTER STYLES
+   ======================================== */
+.footer-neon {
+    background: var(--deep-black);
+    border-top: 1px solid var(--neon-green);
+    padding: 4rem 2rem 2rem;
+    box-shadow: 0 0 30px rgba(0, 255, 159, 0.1);
+}
+
+.footer-grid-neon {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-brand-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    color: var(--neon-green);
+    text-shadow: 0 0 10px rgba(0, 255, 159, 0.5);
+    margin-bottom: 1rem;
+}
+
+.footer-desc-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: #888888;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.footer-social-neon {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link-neon {
+    width: 45px;
+    height: 45px;
+    border: 2px solid var(--neon-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--neon-green);
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.social-link-neon:hover {
+    background: var(--neon-green);
+    color: var(--deep-black);
+    box-shadow: 0 0 20px var(--neon-green);
+}
+
+.footer-column-neon h4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.1rem;
+    color: var(--neon-green);
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-links-neon {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.footer-link-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    color: #888888;
+    transition: all 0.3s ease;
+}
+
+.footer-link-neon:hover {
+    color: var(--neon-green);
+    text-shadow: 0 0 5px rgba(0, 255, 159, 0.5);
+}
+
+.footer-bottom-neon {
+    max-width: 1400px;
+    margin: 3rem auto 0;
+    padding-top: 2rem;
+    border-top: 1px solid var(--medium-gray);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+.footer-legal-neon {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-legal-link-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+.footer-legal-link-neon:hover {
+    color: var(--neon-green);
+}
+
+/* ========================================
+   PAGE HEADER
+   ======================================== */
+.page-header-neon {
+    padding: 8rem 2rem 4rem;
+    text-align: center;
+    background: linear-gradient(180deg, var(--dark-gray) 0%, var(--deep-black) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header-neon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 255, 159, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 159, 0.02) 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+
+.page-title-neon {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--neon-green);
+    text-shadow: 0 0 20px rgba(0, 255, 159, 0.5);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.page-subtitle-neon {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.2rem;
+    color: #888888;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+/* ========================================
+   RESPONSIVE STYLES
+   ======================================== */
+@media (max-width: 1200px) {
+    .game-grid-neon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .grid-4-neon {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .team-grid-neon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-neon {
+        display: none;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: rgba(13, 13, 13, 0.98);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+        border-bottom: 1px solid var(--neon-green);
+    }
+    
+    .nav-neon.active {
+        display: flex;
+    }
+    
+    .nav-toggle-neon {
+        display: flex;
+    }
+    
+    .hero-title-neon {
+        font-size: 3rem;
+    }
+    
+    .about-content-neon {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-grid-neon {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-grid-neon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .game-grid-neon,
+    .news-grid-neon,
+    .grid-3-neon {
+        grid-template-columns: 1fr;
+    }
+    
+    .grid-4-neon,
+    .merch-grid-neon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .team-grid-neon {
+        grid-template-columns: 1fr;
+    }
+    
+    .hero-title-neon {
+        font-size: 2.5rem;
+        letter-spacing: 4px;
+    }
+    
+    .hero-subtitle-neon {
+        font-size: 1.1rem;
+    }
+    
+    .hero-buttons-neon {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn-neon-green,
+    .btn-neon-pink {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .section-title-neon {
+        font-size: 2rem;
+    }
+    
+    .footer-grid-neon {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .footer-social-neon {
+        justify-content: center;
+    }
+    
+    .footer-bottom-neon {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container-neon {
+        padding: 0 1rem;
+    }
+    
+    .logo-neon {
+        font-size: 1.3rem;
+    }
+    
+    .hero-title-neon {
+        font-size: 2rem;
+    }
+    
+    .page-title-neon {
+        font-size: 2rem;
+    }
+    
+    .merch-grid-neon {
+        grid-template-columns: 1fr;
+    }
+    
+    .section-dark-neon,
+    .section-alt-dark-neon {
+        padding: 4rem 1rem;
+    }
+}

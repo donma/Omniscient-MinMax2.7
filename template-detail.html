@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>樣板詳情 — 全職設計視角</title>
+  <link rel="stylesheet" href="assets/css/site.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="site-logo">全職設計視角<span>.</span></div>
+      <nav class="header-nav">
+        <a href="index.html">首頁</a>
+        <a href="index.html#templates">樣板一覽</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="detail-hero">
+    <div class="container">
+      <span class="detail-category" id="detail-category"></span>
+      <h1 class="detail-title" id="detail-title"></h1>
+      <p class="detail-sub" id="detail-sub"></p>
+    </div>
+  </section>
+
+  <section class="detail-preview">
+    <img id="detail-preview-img" src="" alt="Preview">
+  </section>
+
+  <section class="container">
+    <div class="detail-sections">
+      <div class="detail-info-grid">
+        <div class="detail-info-item">
+          <div class="detail-info-label">產業類別</div>
+          <div class="detail-info-value" id="info-industry"></div>
+        </div>
+        <div class="detail-info-item">
+          <div class="detail-info-label">版型結構</div>
+          <div class="detail-info-value" id="info-layout"></div>
+        </div>
+        <div class="detail-info-item">
+          <div class="detail-info-label">頁面數量</div>
+          <div class="detail-info-value" id="info-pages">12 頁</div>
+        </div>
+        <div class="detail-info-item">
+          <div class="detail-info-label">色彩主題</div>
+          <div class="detail-info-value" id="info-color"></div>
+        </div>
+        <div class="detail-info-item">
+          <div class="detail-info-label">背景模式</div>
+          <div class="detail-info-value" id="info-mode"></div>
+        </div>
+        <div class="detail-info-item">
+          <div class="detail-info-label">下載格式</div>
+          <div class="detail-info-value" id="info-zip">ZIP（待提供）</div>
+        </div>
+      </div>
+
+      <h3 class="detail-section-title">設計標籤</h3>
+      <div class="detail-tags" id="detail-tags"></div>
+
+      <h3 class="detail-section-title" style="margin-top: 48px;">完整頁面列表</h3>
+      <div class="detail-pages" id="detail-pages"></div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="detail-actions">
+      <a href="index.html" class="btn btn-outline">← 返回列表</a>
+      <button class="btn btn-outline" id="btn-prompt" onclick="openPrompt()">Prompt 文件</button>
+      <button class="btn btn-accent" id="btn-preview" onclick="previewFull()">在新分頁預覽</button>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-text">© 2026 全職設計視角</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script>
+const PAGE_LISTS = {
+    'template-001': ['index.html','about.html','services.html','service-detail.html','portfolio.html','reviews.html','faq.html','booking.html','process.html','blog.html','blog-detail.html','contact.html'],
+    'template-002': ['index.html','about.html','menu.html','menu-detail.html','gallery.html','journal.html','journal-detail.html','process.html','testimonials.html','faq.html','contact.html','careers.html'],
+    'template-003': ['index.html','about.html','destinations.html','destination-detail.html','experiences.html','gallery.html','journal.html','journal-detail.html','faq.html','booking.html','contact.html','careers.html'],
+    'template-004': ['index.html','about.html','services.html','portfolio.html','pricing.html','testimonials.html','blog.html','blog-detail.html','faq.html','contact.html','careers.html','process.html'],
+    'template-005': ['index.html','about.html','services.html','expertise.html','insights.html','insight-detail.html','team.html','case-studies.html','case-study-detail.html','faq.html','contact.html','careers.html'],
+    'template-006': ['index.html','about.html','services.html','portfolio.html','portfolio-detail.html','process.html','testimonials.html','journal.html','journal-detail.html','faq.html','contact.html','careers.html'],
+    'template-007': ['index.html','courses.html','course-detail.html','mentors.html','pricing.html','testimonials.html','faq.html','blog.html','blog-detail.html','contact.html','careers.html','about.html'],
+    'template-008': ['index.html','about.html','rooms.html','room-detail.html','dining.html','experiences.html','gallery.html','journal.html','journal-detail.html','faq.html','contact.html','careers.html'],
+    'template-009': ['index.html','about.html','menu.html','menu-detail.html','order.html','gallery.html','journal.html','journal-detail.html','faq.html','location.html','contact.html','careers.html'],
+    'template-010': ['index.html','about.html','projects.html','project-detail.html','process.html','studio.html','awards.html','press.html','services.html','faq.html','contact.html','careers.html'],
+    'template-011': ['index.html','about.html','portfolio.html','portfolio-detail.html','pricing.html','testimonials.html','journal.html','journal-detail.html','faq.html','service.html','contact.html','booking.html'],
+    'template-012': ['index.html','about.html','properties.html','property-detail.html','services.html','market-insights.html','market-insight-detail.html','team.html','testimonials.html','faq.html','privacy.html','contact.html'],
+    'template-013': ['index.html','about.html','menu.html','events.html','gallery.html','event-detail.html','reservation.html','taproom.html','contact.html','careers.html','faq.html','wholesale.html'],
+    'template-014': ['index.html','about.html','services.html','doctors.html','blog.html','blog-detail.html','testimonials.html','faq.html','gallery.html','privacy.html','contact.html','appointments.html'],
+'template-015': ['index.html','collections.html','engagement.html','wedding.html','bespoke.html','about.html','contact.html','appointment.html','press.html','careers.html','privacy.html','stores.html'],
+  'template-016': ['index.html','about.html','services.html','products.html','product-detail.html','calculator.html','insights.html','insight-detail.html','team.html','contact.html','faq.html','careers.html'],
+  'template-017': ['index.html','collections.html','collection-detail.html','campaign.html','about.html','journal.html','journal-detail.html','contact.html','stockists.html','press.html','careers.html','faq.html'],
+  'template-018': ['index.html','about.html','courses.html','course-detail.html','mentors.html','pricing.html','testimonials.html','faq.html','blog.html','blog-detail.html','contact.html','careers.html'],
+  'template-019': ['index.html','about.html','products.html','product-detail.html','research.html','team.html','publications.html','publication-detail.html','faq.html','contact.html','careers.html','news.html'],
+  'template-020': ['index.html','models.html','model-detail.html','technology.html','experience.html','ownership.html','gallery.html','news.html','news-detail.html','contact.html','test-drive.html','careers.html'],
+  'template-021': ['index.html','about.html','solutions.html','solutions-detail.html','produce.html','market-data.html','team.html','impact.html','blog.html','blog-detail.html','contact.html','faq.html'],
+  'template-022': ['index.html','games.html','game-detail.html','news.html','news-detail.html','esports.html','community.html','merch.html','about.html','contact.html','faq.html','careers.html'],
+  'template-023': ['index.html','services.html','announcements.html','announcement-detail.html','forms.html','faq.html','links.html','about.html','contact.html','portal.html','news.html','news-detail.html'],
+  'template-024': ['index.html','about.html','mission.html','programs.html','program-detail.html','impact.html','team.html','news.html','news-detail.html','donate.html','volunteer.html','contact.html']
+};
+
+    const TEMPLATE_DIRS = {
+      'template-001': 'template-001-mukang-aesthetics',
+      'template-002': 'template-002-wild-flavor',
+      'template-003': 'template-003-slow-island',
+      'template-004': 'template-004-humming-tech',
+      'template-005': 'template-005-zenith-editorial',
+      'template-006': 'template-006-kinetic-studio',
+      'template-007': 'template-007-eduflow',
+      'template-008': 'template-008-haus-stay',
+      'template-009': 'template-009-verde-leaf',
+      'template-010': 'template-010-axiom-space',
+      'template-011': 'template-011-lumiere-photo',
+      'template-012': 'template-012-prestige-realty',
+      'template-013': 'template-013-brasserie-1888',
+      'template-014': 'template-014-blanc-dental',
+      'template-015': 'template-015-aurum-jewelry',
+      'template-016': 'template-016-apex-finance',
+      'template-017': 'template-017-noir-atelier',
+      'template-018': 'template-018-spark-academy',
+      'template-019': 'template-019-nova-pharma',
+      'template-020': 'template-020-vortex-auto',
+      'template-021': 'template-021-terra-agri',
+      'template-022': 'template-022-neon-matrix',
+      'template-023': 'template-023-gov-portal',
+      'template-024': 'template-024-heartbeat-ngo'
+    };
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      if (id) {
+        loadTemplate(id);
+      } else {
+        window.location.href = 'index.html';
+      }
+    });
+
+    function loadTemplate(id) {
+      const t = TEMPLATES.find(t => t.id === id);
+      if (!t) return;
+
+      document.title = `${t.name} — 全職設計視角`;
+      document.getElementById('detail-category').textContent = t.industry;
+      document.getElementById('detail-title').textContent = t.name;
+      document.getElementById('detail-sub').textContent = t.description;
+      document.getElementById('detail-preview-img').src = t.previewImage;
+      document.getElementById('info-industry').textContent = t.industry;
+      document.getElementById('info-layout').textContent = t.layoutType;
+      document.getElementById('info-color').textContent = t.colorHex || t.colorTheme;
+      document.getElementById('info-mode').textContent = t.backgroundMode === 'dark' ? '深色模式' : '淺色模式';
+
+      const tagsEl = document.getElementById('detail-tags');
+      tagsEl.innerHTML = t.tags.map(tag => `<span class="detail-tag">${tag}</span>`).join('');
+
+      const pages = PAGE_LISTS[id] || PAGE_LISTS['template-001'];
+      document.getElementById('detail-pages').innerHTML = pages.map(p => `<div class="detail-page-item">${p}</div>`).join('');
+
+      window.currentTemplate = t;
+    }
+
+    function openPrompt() {
+      const t = window.currentTemplate;
+      if (!t) return;
+      if (t.promptFile) {
+        window.open(t.promptFile, '_blank');
+      }
+    }
+
+    function previewFull() {
+      const t = window.currentTemplate;
+      if (!t) return;
+      const dir = TEMPLATE_DIRS[t.id];
+      if (dir) {
+        window.open(`templates/${dir}/index.html`, '_blank');
+      }
+    }
+
+    function downloadZip() {
+      const t = window.currentTemplate;
+      if (!t) return;
+      if (t.hasZip) {
+        window.open(t.zipFile, '_blank');
+      } else {
+        alert('ZIP 檔案將於完稿後提供，感謝您的耐心等待。');
+      }
+    }
+  </script>
+</body>
+</html>

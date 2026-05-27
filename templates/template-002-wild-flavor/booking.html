@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>線上預約 | 野味餐酒</title>
+  <meta name="description" content="野味餐酒線上預約系統，每週三至週日提供晚餐服務，請提前預訂。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="site-logo">Wild <span>Flavor</span></a>
+    <nav class="main-nav">
+      <a href="index.html">首頁</a><a href="about.html">關於我們</a><a href="services.html">菜單</a>
+      <a href="portfolio.html">場域</a><a href="blog.html">專欄</a><a href="contact.html">聯絡</a>
+    </nav>
+    <a href="booking.html" class="header-cta" style="color:var(--accent);border-color:var(--accent)">線上預約</a>
+    <button class="hamburger" aria-label="開啟選單"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu">
+  <a href="index.html">首頁</a><a href="about.html">關於我們</a><a href="services.html">菜單</a><a href="portfolio.html">場域</a><a href="blog.html">專欄</a><a href="contact.html">聯絡</a>
+  <a href="booking.html" style="color:var(--accent)">線上預約</a>
+</div>
+<main>
+  <div class="page-header">
+    <div class="container">
+      <span class="section-label">預約系統</span>
+      <h1>預訂你的座位</h1>
+      <p>每週三至週日 18:00 - 23:00｜12 個座位，建議提前一週預約</p>
+    </div>
+  </div>
+
+  <section class="section light-section">
+    <div class="container">
+      <div class="location-grid" style="grid-template-columns:1.2fr 1fr;align-items:start">
+        <div>
+          <span class="section-label">重要說明</span>
+          <h2 class="section-title" style="font-size:1.5rem;margin-bottom:24px">預約前請閱讀</h2>
+          <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:32px">
+            <div style="background:var(--white);border-radius:var(--radius-md);padding:20px 24px">
+              <h4 style="font-family:var(--font-heading);font-size:0.95rem;margin-bottom:6px">⏰ 請準時</h4>
+              <p style="font-size:0.85rem;color:var(--text-light)">遲到超過 30 分鐘，座位將釋出給候補客人。請於預定時間前 5 分鐘抵達。</p>
+            </div>
+            <div style="background:var(--white);border-radius:var(--radius-md);padding:20px 24px">
+              <h4 style="font-family:var(--font-heading);font-size:0.95rem;margin-bottom:6px">🍽️ 套餐消費</h4>
+              <p style="font-size:0.85rem;color:var(--text-light)">每人 NT$3,200（八道菜季節套餐），另可加購自然酒 pairing NT$1,800。</p>
+            </div>
+            <div style="background:var(--white);border-radius:var(--radius-md);padding:20px 24px">
+              <h4 style="font-family:var(--font-heading);font-size:0.95rem;margin-bottom:6px">🚫 取消政策</h4>
+              <p style="font-size:0.85rem;color:var(--text-light)">請於預約日前 48 小時通知取消，否則將收取 NT$800 取消手續費。</p>
+            </div>
+            <div style="background:var(--white);border-radius:var(--radius-md);padding:20px 24px">
+              <h4 style="font-family:var(--font-heading);font-size:0.95rem;margin-bottom:6px">🥜 食物過敏</h4>
+              <p style="font-size:0.85rem;color:var(--text-light)">請在預約表單中註明任何食物過敏或飲食限制，我們將盡量配合但無法保證完全無過敏原。</p>
+            </div>
+          </div>
+        </div>
+        <form class="res-form">
+          <h3 style="font-family:var(--font-heading);font-size:1.2rem;margin-bottom:24px;text-align:center">預約表單</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>姓名 *</label>
+              <input type="text" placeholder="姓名" required>
+            </div>
+            <div class="form-group">
+              <label>電話 *</label>
+              <input type="tel" placeholder="聯絡電話" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>日期 *</label>
+              <input type="date" required>
+            </div>
+            <div class="form-group">
+              <label>時間 *</label>
+              <select required>
+                <option value="">選擇時段</option>
+                <option>18:00 第一輪</option>
+                <option>20:30 第二輪</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>人數 *</label>
+              <select required>
+                <option value="">選擇人數</option>
+                <option>1 位</option>
+                <option>2 位</option>
+                <option>3 位</option>
+                <option>4 位（私人包廂）</option>
+                <option>5-8 位（私人包廂）</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>酒水搭配</label>
+              <select>
+                <option>不需要</option>
+                <option>加購自然酒 pairing（NT$1,800/人）</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>飲食過敏或特殊需求</label>
+            <textarea placeholder="如：海鮮過敏、純素、無麩質等" style="min-height:80px"></textarea>
+          </div>
+          <button type="submit" class="btn-primary" style="width:100%;justify-content:center">確認預約</button>
+          <p style="font-size:0.75rem;color:var(--text-muted);margin-top:12px;text-align:center">預約成功後，會在 24 小時內以電話或 LINE 確認</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><a href="index.html" class="site-logo">Wild <span>Flavor</span></a><p>法式為底，在地為魂。</p></div>
+      <div class="footer-col"><h4>導覽</h4><a href="about.html">關於我們</a><a href="services.html">菜單</a><a href="booking.html">線上預約</a></div>
+      <div class="footer-col"><h4>服務</h4><a href="services.html">季節套餐</a><a href="booking.html">私人包廂</a></div>
+      <div class="footer-col"><h4>聯絡</h4><p style="font-size:0.82rem;margin-bottom:8px">📍 台北市大安區延吉街 138 巷 7 號</p><p style="font-size:0.82rem">📞 02-2773-0821</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Wild Flavor. All rights reserved.</span></div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="回到頂部">↑</button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

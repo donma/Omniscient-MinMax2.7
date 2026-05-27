@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Appointment — Aurum Jewelry</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">AURUM</a>
+    <div class="nav-links">
+      <a href="collections.html">Collections</a>
+      <a href="engagement.html">Engagement</a>
+      <a href="wedding.html">Wedding</a>
+      <a href="bespoke.html">Bespoke</a>
+      <a href="about.html">About</a>
+    </div>
+    <a href="appointment.html" class="nav-cta" style="background:var(--rose);border-color:var(--rose);">Book Appointment</a>
+    <button class="nav-toggle" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+    </button>
+  </nav>
+
+  <div class="nav-mobile">
+    <a href="collections.html">Collections</a>
+    <a href="engagement.html">Engagement</a>
+    <a href="wedding.html">Wedding</a>
+    <a href="bespoke.html">Bespoke</a>
+    <a href="about.html">About</a>
+  </div>
+
+  <section class="page-hero">
+    <p class="page-hero-label">Private Appointments</p>
+    <h1 class="page-hero-title">預約<em>典藏</em></h1>
+    <p class="page-hero-sub">，我們會致電確認預約時間，確保珠寶顧問有充足的時間為您服務。</p>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div style="max-width:560px;margin:0 auto;">
+        <form style="display:flex;flex-direction:column;gap:24px;">
+          <div class="form-group">
+            <label class="form-label">姓名 *</label>
+            <input class="form-input" type="text" placeholder="您的姓名">
+          </div>
+          <div class="form-group">
+            <label class="form-label">電話 *</label>
+            <input class="form-input" type="tel" placeholder="+886 9xx xxx xxx">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input class="form-input" type="email" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">想了解的服務</label>
+            <select class="form-select">
+              <option>珠寶典藏諮詢</option>
+              <option>婚戒訂製</option>
+              <option>Bespoke 訂製服務</option>
+              <option>珠寶清潔與保養</option>
+              <option>其他</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">希望的日期</label>
+            <input class="form-input" type="date">
+          </div>
+          <div class="form-group">
+            <label class="form-label">希望的時段</label>
+            <select class="form-select">
+              <option>11:00 – 13:00</option>
+              <option>13:00 – 15:00</option>
+              <option>15:00 – 17:00</option>
+              <option>17:00 – 19:00</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">特殊需求或備註</label>
+            <textarea class="form-textarea" placeholder="預算範圍、特定珠寶類型、或任何想先讓我們了解的事項..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">送出預約</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div><div class="footer-brand">AURUM</div><p class="footer-desc">永恆的奢華。每一件珠寶，都是一段故事的延續。</p></div>
+      <div class="footer-col"><h4>Collections</h4><ul><li><a href="collections.html">All Collections</a></li><li><a href="engagement.html">Engagement Rings</a></li><li><a href="wedding.html">Wedding</a></li><li><a href="bespoke.html">Bespoke</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:hello@aurum.tw">hello@aurum.tw</a></li><li><a href="tel:+886227181888">+886 2 2718 1888</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><p class="footer-copy">© 2024 Aurum Jewelry. All rights reserved.</p></div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "id": "template-014",
+  "name": "Blanc Dental",
+  "category": "牙科診所",
+  "tags": ["牙科", "醫療", "Clean Minimal", "薄荷綠", "純白", "Nunito Sans", "現代牙醫", "專業信任"],
+  "colorScheme": { "bg": "#FFFFFF", "bgAlt": "#F7F9F8", "mint": "#E8F5F0", "teal": "#0D9488", "text": "#333333", "textLight": "#6B7280", "border": "#E5E7EB" },
+  "fonts": { "heading": "Nunito Sans", "body": "Nunito Sans" }
+}

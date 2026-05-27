@@ -1,0 +1,19 @@
+{
+  "id": "template-010",
+  "name": "Axiom Space",
+  "category": "室內設計",
+  "tags": ["室內設計", "Split Screen", "雙欄", "銀灰", "建築空間", "Syne字體", "視差滾動", "金屬質感"],
+  "colorScheme": {
+    "bg": "#18181B",
+    "surface": "#27272A",
+    "border": "#3f3f46",
+    "muted": "#71717A",
+    "light": "#a1a1aa",
+    "white": "#F4F4F5",
+    "accent": "#d4d4d8"
+  },
+  "fonts": {
+    "heading": "Syne",
+    "body": "Space Grotesk"
+  }
+}

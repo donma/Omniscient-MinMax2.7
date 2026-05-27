@@ -1,0 +1,20 @@
+{
+  "id": "template-006",
+  "name": "Kinetic Studio",
+  "category": "創意工作室",
+  "tags": ["創意工作室", "品牌設計", "廣告公司", "視差滾動", "動態網站", "Syne字體", "橙黃活力", "水平滾動"],
+  "colorScheme": {
+    "bg": "#FFF8F5",
+    "bgAlt": "#FFF0E8",
+    "primary": "#FF5C00",
+    "secondary": "#1A1A1A",
+    "accent": "#FFB800",
+    "text": "#3A3A3A",
+    "textLight": "#888888",
+    "white": "#FFFFFF"
+  },
+  "fonts": {
+    "heading": "Syne",
+    "body": "DM Sans"
+  }
+}

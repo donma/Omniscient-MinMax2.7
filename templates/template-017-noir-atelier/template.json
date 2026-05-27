@@ -1,0 +1,66 @@
+{
+  "template": {
+    "id": "017",
+    "name": "NOIR Atelier",
+    "description": "當代時尚服飾品牌網站，以無導航全屏首頁與編輯式橫排圖文呈現高端時尚雜誌質感。",
+    "category": "fashion-luxury",
+    "version": "1.0.0",
+    "created_date": "2026-05-27",
+    "author": "NOIR Atelier Team",
+    "license": "All Rights Reserved",
+    "files": {
+      "html": [
+        "index.html",
+        "about.html",
+        "collections.html",
+        "collection-detail.html",
+        "campaign.html",
+        "journal.html",
+        "journal-detail.html",
+        "stockists.html",
+        "careers.html",
+        "contact.html",
+        "faq.html",
+        "press.html"
+      ],
+      "css": ["assets/css/style.css"],
+      "javascript": ["assets/js/main.js"],
+      "documentation": ["prompt.md", "tags.json", "template.json", "README.md", "image-sources.md"]
+    },
+    "structure": {
+      "assets": { "css": "style.css", "js": "main.js" },
+      "root": ["index.html","about.html","collections.html","collection-detail.html","campaign.html","journal.html","journal-detail.html","stockists.html","careers.html","contact.html","faq.html","press.html"]
+    },
+    "content_summary": {
+      "chinese_content": true,
+      "chinese_percentage": 85,
+      "brand_name": "NOIR Atelier",
+      "established": "2018"
+    },
+    "technical_specs": {
+      "css_unique_classes": true,
+      "css_line_count": 701,
+      "js_framework": "vanilla",
+      "responsive": true,
+      "css_variables": true,
+      "css_grid": true,
+      "flexbox": true,
+      "css_animations": true,
+      "fontawesome_version": "6.4.0"
+    },
+    "pages_detail": {
+      "index": { "title": "NOIR Atelier - 當代時尚服飾", "sections": ["home-no-nav", "hero", "editorial-grid"] },
+      "about": { "title": "品牌故事 - NOIR Atelier", "sections": ["brand-story", "milestones"] },
+      "collections": { "title": "系列總覽 - NOIR Atelier", "sections": ["editorial-grid", "category-filters"] },
+      "collection-detail": { "title": "系列詳情 - NOIR Atelier", "sections": ["product-detail", "size-guide"] },
+      "campaign": { "title": "品牌形象廣告 - NOIR Atelier", "sections": ["campaign-hero", "behind-scenes"] },
+      "journal": { "title": "線上誌 - NOIR Atelier", "sections": ["article-grid", "categories"] },
+      "journal-detail": { "title": "文章 - NOIR Atelier", "sections": ["article-content", "related"] },
+      "stockists": { "title": "銷售點 - NOIR Atelier", "sections": ["store-list", "map"] },
+      "careers": { "title": "人才招募 - NOIR Atelier", "sections": ["benefits", "job-listings"] },
+      "contact": { "title": "聯絡我們 - NOIR Atelier", "sections": ["contact-form", "privacy"] },
+      "faq": { "title": "常見問題 - NOIR Atelier", "sections": ["faq-accordion"] },
+      "press": { "title": "新聞媒體 - NOIR Atelier", "sections": ["press-releases", "media-kit"] }
+    }
+  }
+}

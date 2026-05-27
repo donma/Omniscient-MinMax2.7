@@ -1,0 +1,16 @@
+{
+  "id": "template-003",
+  "name": "島嶼慢旅",
+  "industryCategory": "旅遊休閒",
+  "industry": ["深度旅遊", "戶外探索", "生態旅遊", "登山健行"],
+  "colors": ["深海藍調", "深色系", "科技藍", "午夜色"],
+  "backgroundMode": "dark",
+  "features": ["線上預約", "目的地展示", "行程列表", "地圖區塊", "部落格", "Google Map", "Line 連結", "圖片豐富", "強 SEO"],
+  "layout": ["大圖沉浸式 Hero", "Bento Grid", "全屏沉浸式", "Dark Mode"],
+  "pages": 12,
+  "hasZip": false,
+  "hasPrompt": true,
+  "hasPreview": true,
+  "imageRich": true,
+  "status": "candidate"
+}

@@ -1,0 +1,35 @@
+{
+  "template_id": "021",
+  "name": "Terra Agri",
+  "category": "agriculture",
+  "tags": [
+    "農業",
+    "永續農業",
+    "智慧農業",
+    "科技農業",
+    "IoT",
+    "物聯網",
+    "友善環境",
+    "有機農業"
+  ],
+  "features": [
+    "智慧灌溉系統",
+    "土壤健康檢測",
+    "農業無人機",
+    "AI病蟲害診斷",
+    "產銷管理平台",
+    "氣象預警系統"
+  ],
+  "pages": 12,
+  "css_lines": 1325,
+  "color_palette": {
+    "brown": "#3E2723",
+    "clay": "#8D6E63",
+    "cream": "#F5F0E8",
+    "green": "#2E7D32"
+  },
+  "fonts": {
+    "headings": "Bitter",
+    "body": "Lato"
+  }
+}

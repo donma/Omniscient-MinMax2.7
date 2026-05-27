@@ -1,0 +1,55 @@
+{
+  "template": {
+    "id": "021",
+    "name": "Terra Agri 永續農業",
+    "description": "永續農業科技服務網站，以溫暖大地色系呈現農業與科技的完美結合。",
+    "category": "agriculture-tech",
+    "version": "1.0.0",
+    "created_date": "2026-05-27",
+    "author": "Terra Agri Team",
+    "license": "All Rights Reserved",
+    "files": {
+      "html": [
+        "index.html", "about.html", "solutions.html", "solutions-detail.html",
+        "market-data.html", "produce.html", "blog.html", "blog-detail.html",
+        "team.html", "impact.html", "contact.html", "faq.html"
+      ],
+      "css": ["assets/css/style.css"],
+      "javascript": ["assets/js/main.js"],
+      "documentation": ["prompt.md", "tags.json", "template.json", "README.md", "image-sources.md"]
+    },
+    "structure": {
+      "assets": { "css": "style.css", "js": "main.js" },
+      "root": ["index.html","about.html","solutions.html","solutions-detail.html","market-data.html","produce.html","blog.html","blog-detail.html","team.html","impact.html","contact.html","faq.html"]
+    },
+    "content_summary": {
+      "chinese_content": true,
+      "chinese_percentage": 95,
+      "company_name": "Terra Agri"
+    },
+    "technical_specs": {
+      "css_unique_classes": true,
+      "css_line_count": 1325,
+      "js_framework": "vanilla",
+      "responsive": true,
+      "css_variables": true,
+      "css_grid": true,
+      "flexbox": true,
+      "fontawesome_version": "6.5.1"
+    },
+    "pages_detail": {
+      "index": { "title": "Terra Agri 永續農業 | 智慧農耕新時代", "sections": ["hero", "solutions-overview", "case-studies", "stats"] },
+      "about": { "title": "關於我們 | Terra Agri", "sections": ["story", "mission", "partners"] },
+      "solutions": { "title": "解決方案 | Terra Agri", "sections": ["6-solutions-grid"] },
+      "solutions-detail": { "title": "智慧灌溉系統 | Terra Agri", "sections": ["product-intro", "features", "cta"] },
+      "market-data": { "title": "市場數據 | Terra Agri", "sections": ["price-charts", "trends"] },
+      "produce": { "title": "農產品 | Terra Agri", "sections": ["product-grid", "traceability"] },
+      "blog": { "title": "知識庫 | Terra Agri", "sections": ["article-grid"] },
+      "blog-detail": { "title": "文章 | Terra Agri", "sections": ["article", "related"] },
+      "team": { "title": "團隊成員 | Terra Agri", "sections": ["team-grid"] },
+      "impact": { "title": "影響力 | Terra Agri", "sections": ["impact-stats"] },
+      "contact": { "title": "聯絡我們 | Terra Agri", "sections": ["contact-form", "offices"] },
+      "faq": { "title": "常見問題 | Terra Agri", "sections": ["faq-accordion"] }
+    }
+  }
+}

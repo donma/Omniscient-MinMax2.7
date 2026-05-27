@@ -1,0 +1,42 @@
+{
+  "id": "template-024",
+  "name": "Heartbeat NGO",
+  "nameChinese": "心跳基金會",
+  "category": "非營利組織",
+  "tags": [
+    "非營利",
+    "公益",
+    "暖色",
+    "故事牆",
+    "社會影響",
+    "兒童關懷",
+    "教育支援",
+    "志願服務",
+    "愛心捐贈"
+  ],
+  "colorScheme": {
+    "primary": "#E8572A",
+    "secondary": "#FFF3E0",
+    "text": "#2D2D2D",
+    "background": "#FFFAF5",
+    "accent": "#00897B",
+    "lightOrange": "#FFAB91",
+    "mediumBrown": "#5D4E37"
+  },
+  "fonts": {
+    "heading": "Merriweather",
+    "body": "Open Sans"
+  },
+  "pages": 12,
+  "features": [
+    "故事牆式內容呈現",
+    "影響力數據計數器",
+    "志願者報名系統",
+    "線上捐贈功能",
+    "最新消息網格",
+    "團隊成員介紹",
+    "聯絡表單"
+  ],
+  "targetAudience": "關心社會公益、願意參與志願服務或捐贈的民眾",
+  "recommendedHero": "社區關懷、兒童教育、志願服務相關照片"
+}
